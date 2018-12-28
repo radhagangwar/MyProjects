@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2018-09-17T23:20:07.454+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/SlingModel/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Second Sling Model Page"
+        sling:resourceType="SlingModel/components/structure/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="SlingModel/components/structure/logo"/>
+        <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="SlingModel/components/content/title"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="SlingModel/components/structure/topnav"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <text
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="SlingModel/components/content/text"
+                text="&lt;p>This is a content page&lt;/p>"
+                textIsRich="true"/>
+            <second_slingmodel
+                jcr:created="{Date}2018-09-10T22:42:23.766+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-09-10T22:42:23.766+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="SlingModel/components/content/second-slingmodel"/>
+            <helloworld
+                jcr:created="{Date}2018-09-11T22:32:40.131+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2018-09-11T22:32:40.131+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="SlingModel/components/content/helloworld"/>
+        </par>
+    </jcr:content>
+</jcr:root>

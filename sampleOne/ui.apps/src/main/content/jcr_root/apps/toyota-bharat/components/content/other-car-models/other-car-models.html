@@ -1,0 +1,21 @@
+
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" 
+data-sly-call="${clientlib.all @ categories='toyota-bharat.carousel'}" />
+<div id="other_models_section" class="sections" data-sly-use.carmodels="com.toyotaBharat.core.wcmimpl.CarModelWCM">
+   <h2>Other models</h2>
+   <div class="core cf">
+      <div class="inner_bxbox">
+         <div class="bx-wrapper">
+            <div class="bx-viewport">
+               <ul data-sly-list.child="${carmodels.carModelsData.entrySet}" class="other-models">
+				  <li data-sly-test="${currentpage.name != child.value.carName}">
+                    <a href="#"> <img alt="${child.value.carName}" src="${child.key.carImagePath}"></a>
+                     <p>${child.value.carName}</p>
+                  </li>
+                </ul>
+            </div>
+
+         </div>
+      </div>
+   </div>
+</div>

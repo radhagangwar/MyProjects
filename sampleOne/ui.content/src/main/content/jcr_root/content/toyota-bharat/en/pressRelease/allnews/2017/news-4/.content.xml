@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-08-25T16:51:37.407+05:30"
+        cq:lastModifiedBy="reference-adjustment-service"
+        cq:template="/apps/ListDemo/templates/newslist"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Toyota Kirloskar Motor sold 3628 units in the Month of June 2017"
+        jcr:uuid="6e1abf67-232a-43b6-88ae-dbc3a7c0f7e7"
+        sling:resourceType="/apps/ListDemo/components/2017/customPageComponent">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <title
+                jcr:created="{Date}2017-07-24T15:27:04.414+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-07-24T15:27:04.414+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="toyota-bharat/components/content/title"/>
+            <newspara_text
+                jcr:created="{Date}2017-07-24T15:27:30.538+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-07-24T15:27:37.357+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="toyota-bharat/components/content/newspara-text"
+                text="&lt;p>&lt;b>Bangalore, June 30&lt;sup>th&lt;/sup>&amp;nbsp;2017&lt;/b>&amp;nbsp;- In the month of June 2017, Toyota Kirloskar Motor sold a total of 1973 units in the domestic market and exported 1655 units of the Etios series in June 2017 clocking a total of 3628.&lt;/p>&#xa;&lt;p>Commenting on the monthly sales,&amp;nbsp;&lt;b>Mr. N. Raja, Director &amp;amp; Sr. Vice President, Sales &amp;amp; Marketing, Toyota Kirloskar Motor said,&lt;/b>&amp;nbsp;“The uncertainty surrounding the GST implementation with regard to the passenger vehicles has impacted the retails as the customers are postponing their plan of purchasing the vehicle post GST roll out. Thus, in line with our “Customer First” philosophy Toyota Kirloskar Motor has taken a conscious decision to lower the volumes of vehicles sold to dealers this month. We believe that our dealers are our first customer who cater to the requirements of our end customers. This strategy has been undertaken to ensure that there is minimum burden on our dealer partners and they can focus on clearing the existing stocks at the dealerships. Our dealers are our allies and play a vital role in our sustained business. We at Toyota always strive to support them through any business challenges. Thus, closely monitoring the customer sentiments we have taken this step to lessen any impact of the differential tax post GST roll out effective 1&lt;sup>st&lt;/sup>&amp;nbsp;July ‘17. Putting the dealers' needs ahead of everything else has been our first priority to ensure quality products and provide good service. “&lt;/p>&#xa;&lt;p>We are optimistic that the GST implementation will be fruitful for the growth of the Indian auto industry. With the change in prices we hope to see positive sentiments amongst the consumers in the month of July. We think the industry will break into double digit territory this year.”&lt;/p>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Overview of TKM&lt;/b>&lt;/p>&#xa;&lt;table width=&quot;100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;5&quot; border=&quot;1&quot;>&#xa;&lt;tbody>&lt;tr>&lt;td width=&quot;21%&quot;>&lt;b>Company name&lt;/b>&lt;/td>&#xa;&lt;td width=&quot;79%&quot;>Toyota Kirloskar Motor Private Limited&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Equity participation&lt;/b>&lt;/td>&#xa;&lt;td>TMC: 89%, Kirloskar Group: 11%&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Number of employees&lt;/b>&lt;/td>&#xa;&lt;td>Approx. 7,000 +&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Land area&lt;/b>&lt;/td>&#xa;&lt;td>Aprox. 432 acres (approx.1,700,000 m2)&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Building area&lt;/b>&lt;/td>&#xa;&lt;td>74,000 m2&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Total Installed Production capacity&lt;/b>&lt;/td>&#xa;&lt;td>Upto 3,10,000 units&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Overview of TKM 1st Plant&lt;/b>&lt;/p>&#xa;&lt;table width=&quot;100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;5&quot; border=&quot;1&quot;>&#xa;&lt;tbody>&lt;tr>&lt;td width=&quot;21%&quot;>&lt;b>Established&lt;/b>&lt;/td>&#xa;&lt;td width=&quot;79%&quot;>October 1997 (start of production: December 1999)&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Location&lt;/b>&lt;/td>&#xa;&lt;td>Bidadi&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Products&lt;/b>&lt;/td>&#xa;&lt;td>Innova, Fortuner manufactured in India.&amp;nbsp;&lt;br>&#xa;Prado, Land Cruiser and Prius imported as CBUs.&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Installed Production capacity&lt;/b>&lt;/td>&#xa;&lt;td>Upto 1,00,000 units&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Overview of TKM 2nd Plant&lt;/b>&lt;/p>&#xa;&lt;table width=&quot;100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;5&quot; border=&quot;1&quot;>&#xa;&lt;tbody>&lt;tr>&lt;td width=&quot;21%&quot;>&lt;b>Start of Production&lt;/b>&lt;/td>&#xa;&lt;td width=&quot;79%&quot;>December 2010&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Location&lt;/b>&lt;/td>&#xa;&lt;td>On the site of Toyota Kirloskar Motor Private Limited, Bidadi&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Products&lt;/b>&lt;/td>&#xa;&lt;td>Corolla Altis, Etios, Etios Liva, Etios Cross, Camry &amp;amp; Camry Hybrid&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Installed Production capacity&lt;/b>&lt;/td>&#xa;&lt;td>Upto 2,10,000 units&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>For any further Queries please contact:&lt;/b>&lt;/p>&#xa;&lt;table width=&quot;100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;5&quot; border=&quot;1&quot;>&#xa;&lt;tbody>&lt;tr>&lt;td width=&quot;50%&quot;>&lt;b>Toyota Kirloskar Motor Pvt. Ltd.&lt;/b>&lt;/td>&#xa;&lt;td width=&quot;50%&quot;>&lt;b>Creation&lt;/b>&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Priyanka Bhattacharya&lt;/b>&amp;nbsp;&lt;br>&#xa;&lt;b>Mobile :&lt;/b>&amp;nbsp;+91 98807-67778&amp;nbsp;&lt;br>&#xa;&lt;b>Email :&lt;/b>&lt;a href=&quot;mailto:priyanka_bhattacharya@toyota-kirloskar.co.in&quot;>priyanka_bhattacharya@toyota-kirloskar.co.in&lt;/a>&lt;/td>&#xa;&lt;td>&lt;b>Kaveri Mandanna&lt;/b>&amp;nbsp;&lt;br>&#xa;&lt;b>Mobile :&lt;/b>+91 90089-59697&amp;nbsp;&lt;br>&#xa;&lt;b>Email :&lt;/b>&amp;nbsp;&lt;a href=&quot;mailto:kaveri.mandanna@creation.io&quot;>kaveri.mandanna@creation.io&lt;/a>&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;"
+                textIsRich="true"/>
+            <image
+                jcr:created="{Date}2017-07-24T15:48:57.531+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-07-24T15:48:57.531+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="toyota-bharat/components/content/image"
+                fileReference="/content/dam/toyota-bharat/news/thum_news_02_tcm34-9887.jpg"/>
+        </par>
+        <image
+            jcr:lastModified="{Date}2017-07-25T10:41:54.007+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/toyota-bharat/news/thum_news_02_tcm34-9887.jpg"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

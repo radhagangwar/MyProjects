@@ -1,0 +1,11 @@
+<div style="display: none;">asd</div>
+<sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"/>
+<sly data-sly-call="${clientLib.all @ categories='toyota-bharat.carousel'}" />
+<sly data-sly-use.info="${'com.toyotaBharat.core.wcmimpl.CarouselDataWCM' @ pagePath = currentPage.path}"></sly>
+<ul class="bxsliderhero" data-sly-list.carouselList="${info.getHeroCarouselLinkData.entrySet}">
+	<li>
+	 	<a href="${carouselList.value}.html">
+        	<img src="${carouselList.key}"/>
+        </a>
+	</li>
+</ul>

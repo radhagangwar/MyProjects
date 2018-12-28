@@ -1,0 +1,32 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" />
+<sly data-sly-call="${clientlib.all @ categories='toyota-bharat.site'}" />
+
+<div id="page_navi_top" data-sly-use.navigationlistclass="${'com.toyotaBharat.core.wcmimpl.NavigationListWCM' @ pagePath = currentPage.path}">
+  <ul>
+    <li class="main_visual"><a href="#main_visual">Top</a></li>
+  </ul>
+  <ul id="nav" data-sly-list.child="${navigationlistclass.navList}">    
+    <li>
+       <a href="#${child.pageName}">${child.pageTitle}</a>
+    </li>        
+  </ul>
+  <ul>
+  <li id="view_specification_nav" class="view_specification">
+    <a target="_blank" href="#">Specification</a>
+   </li>
+  <li id="external_link22" class="external_link2">
+    <a target="_blank" href="/content/toyota-bharat/en/fixed-header-pages/bookaservice.html">Buy Now</a>
+  </li>
+  <li id="external_link12" class="external_link1">
+    <a target="_blank" href="/content/toyota-bharat/en/fixed-header-pages/testdrive.html">Testdrive</a>
+  </li>
+  <li id="external_link32" class="external_link3">
+    <a target="_blank" href="/content/toyota-bharat/en/fixed-header-pages/brochure.html">Brochure</a>
+  </li>
+  <li id="external_link42" class="external_link4">
+    <a target="_blank" href="/content/toyota-bharat/en/fixed-header-pages/quote.html">Price List</a>
+  </li>
+  </ul>
+
+</div>
+

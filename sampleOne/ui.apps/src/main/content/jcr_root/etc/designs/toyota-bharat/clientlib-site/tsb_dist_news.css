@@ -1,0 +1,198 @@
+@font-face {
+	font-family: "toyotaicons";
+	src: url('/etc/designs/toyota-bharat/clientlib-site/fonts/toyotaicons.woff');
+	font-weight: normal;
+	font-style: normal;
+}
+.icon-info-sign {
+	font-style:normal;
+}
+.icon-info-sign:before {
+	content: "\f05a";
+	font-family: toyotaicons;
+	padding:0px 0px 0 4px;
+}
+#content {
+	font-family: toyotaDisplay, Verdana, Helvetica, Arial, sans-serif;
+	position:relative;
+	background:#fff;
+}
+#content h2 {
+	width:100%;
+	font-size:35px;
+	line-height:1em;
+	text-align:center;
+	padding:45px 0 30px 0;
+}
+#content a {
+	font-weight:bold;
+}
+#content a:hover {
+	color:#eb0a1e;
+}
+#main_visual {
+	position:relative;
+}
+#content .section {
+	padding:0 40px 50px 40px;
+	
+}
+
+#content .news_year_list {
+	padding:0 40px 40px 40px;
+}
+#content .news_year_list li {
+	margin:0 15px 0 0;
+	padding:0 15px 0 0;
+	float:left;
+	font-size:22px;
+	line-height:1em;
+	border-right: solid 1px #333;
+	cursor: pointer;
+}
+#content .news_year_list li a {
+	font-weight:normal;
+}
+#content .news_year_list li a:hover {
+	color:#333;
+	opacity:0.5;
+}
+#content .news_year_list li.current a {
+	color:#eb0a1e;
+}
+#content .news_year_list li.last {
+	border-right:none;
+}
+
+
+#content .section dl {
+	margin:0 0 50px 0;
+}
+#content .section dl dt {
+	width:225px;
+	margin:0 25px 0 0;
+	float:left;
+}
+#content .section dl dd {
+	padding:0 0 0 250px;
+}
+#content .section dl dd .date {
+	line-height:1;
+	margin:0 0 5px 0;
+}
+#content .section dl dd .title {
+	font-weight:bold;
+	font-size:18px;
+	line-height:1.2em;
+	padding:0 0 5px 0;
+}
+#content .section dl dd .summary {
+	padding:0 0 5px 0;
+}
+#content .section dl dd .category {
+}
+#page_navi {
+}
+#page_navi li {
+	line-height:1em;
+	padding:0 5px;
+	font-size:16px;
+	border-left:solid 1px #6c7073;
+	color:#6c7073;
+	float:left;
+}
+#page_navi li.pre_navi {
+	border-left:none;
+}
+#page_navi li a {
+	font-weight:normal;
+	text-decoration:underline;
+	color:#6c7073;
+}
+#page_navi li.current a {
+	text-decoration:none;
+}
+
+#content .section#detail {
+	padding:40px;
+}
+#content .section#detail .date {
+}
+#content .section#detail .title {
+	margin:0 0 30px 0;
+	font-size:24px;
+	line-height:1.2em;
+	font-weight:bold;
+}
+#content .section#detail .category {
+	padding:0 0 20px 0;
+}
+#content .section#detail .body h3 {
+	margin:20px 0 10px 0;
+}
+#content .section#detail .body p {
+	padding:0 0 15px 0;
+}
+#content .section#detail .body img {
+	margin:0 auto;
+	text-align:center;
+}
+
+@media (max-width: 1024px) {
+}
+@media (max-width: 767px) {
+#content .section {
+	padding:0;
+}
+#content h2 {
+	font-size:27px;
+	padding:20px 0;
+}
+#content .section dl {
+	margin:0;
+	border-bottom:solid 1px #aaaaaa;
+}
+#content .section dl.last {
+	border-bottom:none;
+}
+#content .section dl dt {
+	width:100%;
+	float:none;
+	margin:0;
+}
+#content .section dl dt img {
+	width:100%;
+}
+#content .section dl dd {
+	text-align:center;
+	padding:30px;
+}
+#content .section dl dd p {
+	margin:0 0 30px 0;
+}
+#content .section dl dd .date {
+	font-size:24px;
+}
+#content .section dl dd .title {
+	font-size:30px;
+}
+#content .section dl dd .summary,
+#content .section dl dd .category {
+	font-size:20px;
+}
+#page_navi {
+	padding:30px;
+}
+
+#content .news_year_list {
+	padding:0 40px 25px 40px;
+}
+
+}
+
+@media screen and (max-width:550px) {
+.body img {
+    width: 90% !important;
+    height: auto !important;
+}
+}

@@ -1,0 +1,320 @@
+/* line 4, ../../app/styles/modules/_migration__engage.scss */
+.migration-engage-tabs {
+  background: #f4f4f4;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  overflow: hidden;
+}
+/* line 9, ../../app/styles/modules/_migration__engage.scss */
+.migration-engage-tabs > li {
+  width: 50%;
+  float: left;
+  position: relative;
+}
+/* line 13, ../../app/styles/modules/_migration__engage.scss */
+.migration-engage-tabs > li:first-child:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  right: -1px;
+  top: 13px;
+  bottom: 13px;
+  width: 1px;
+  background: #c3c3c3;
+}
+/* line 23, ../../app/styles/modules/_migration__engage.scss */
+.migration-engage-tabs > li:first-child {
+  text-align: right;
+}
+
+/* line 28, ../../app/styles/modules/_migration__engage.scss */
+.migration-engage-tabs__tab {
+  font-size: 20px;
+  display: block;
+  padding: 16px 50px;
+  color: #989898;
+}
+/* line 34, ../../app/styles/modules/_migration__engage.scss */
+.migration-engage-tabs__tab.is-active {
+  color: #000;
+}
+
+/* line 39, ../../app/styles/modules/_migration__engage.scss */
+.migration-engage__content-wrap {
+  background-image: -moz-linear-gradient(#ffffff, #f4f4f4);
+  background-image: -o-linear-gradient(#ffffff, #f4f4f4);
+  background-image: -webkit-linear-gradient(#ffffff, #f4f4f4);
+  background-image: linear-gradient(#ffffff, #f4f4f4);
+  overflow: hidden;
+}
+
+/* line 43, ../../app/styles/modules/_migration__engage.scss */
+.migration-engage__content {
+  margin: 0 auto;
+  width: 1010px;
+}
+
+/* line 1, ../../app/styles/modules/_migration__tab-content.scss */
+.migration-tab-content {
+  display: none;
+  min-height: 297px;
+}
+/* line 5, ../../app/styles/modules/_migration__tab-content.scss */
+.migration-tab-content.is-active {
+  display: block;
+}
+
+/* line 1, ../../app/styles/modules/_migration__recommended-carousel.scss */
+.migration-recommended-carousel {
+  overflow: hidden;
+  position: relative;
+  padding: 46px 57px 38px;
+}
+
+/* line 8, ../../app/styles/modules/_migration__recommended-carousel.scss */
+.migration-recommended-carousel__wrap {
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+}
+
+/* line 14, ../../app/styles/modules/_migration__recommended-carousel.scss */
+.migration-recommended-carousel__item {
+  float: left;
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+/* line 20, ../../app/styles/modules/_migration__recommended-carousel.scss */
+.migration-recommended-carousel__link {
+  float: left;
+  width: 200px;
+  display: block;
+  margin-left: 32px;
+  text-align: center;
+}
+/* line 26, ../../app/styles/modules/_migration__recommended-carousel.scss */
+.migration-recommended-carousel__link > h3 {
+  color: #000;
+  font-size: 17px;
+  line-height: 1.4;
+  margin-top: 18px;
+}
+/* line 33, ../../app/styles/modules/_migration__recommended-carousel.scss */
+.migration-recommended-carousel__link > p {
+  color: #919191;
+  font-size: 14px;
+  line-height: 1.3;
+  margin-top: 6px;
+}
+/* line 39, ../../app/styles/modules/_migration__recommended-carousel.scss */
+.migration-recommended-carousel__link:hover > h3 {
+  text-decoration: underline;
+}
+
+/* line 43, ../../app/styles/modules/_migration__recommended-carousel.scss */
+.migration-recommended-carousel__item > .migration-recommended-carousel__link:first-child {
+  margin-left: 0;
+}
+
+/* line 46, ../../app/styles/modules/_migration__recommended-carousel.scss */
+.migration-recommended-carousel__but {
+  border: 0;
+  cursor: pointer;
+  display: block;
+  width: 56px;
+  height: 64px;
+  padding: 0;
+  position: absolute;
+  top: 82px;
+  background: url(/jpn/images_new/a792b5a0.recommended-carousel-arrows.png);
+  z-index: 20;
+  text-indent: -9999px;
+  overflow: hidden;
+}
+/* line 60, ../../app/styles/modules/_migration__recommended-carousel.scss */
+.migration-recommended-carousel__but:focus {
+  outline: none;
+}
+
+/* line 64, ../../app/styles/modules/_migration__recommended-carousel.scss */
+.migration-recommended-carousel__prev {
+  left: 0;
+  background-position: top left;
+}
+
+/* line 68, ../../app/styles/modules/_migration__recommended-carousel.scss */
+.migration-recommended-carousel__next {
+  right: 0;
+  background-position: top right;
+}
+
+/* line 1, ../../app/styles/modules/_migration__explore-toyota.scss */
+.migration-explore-toyota {
+  padding: 46px 0 38px 0;
+  position: relative;
+  z-index: 10;
+}
+
+/* line 6, ../../app/styles/modules/_migration__explore-toyota.scss */
+.migration-explore-toyota__list {
+  overflow: hidden;
+  width: 896px;
+  margin: 0 auto;
+}
+/* line 10, ../../app/styles/modules/_migration__explore-toyota.scss */
+.migration-explore-toyota__list > li {
+  width: 200px;
+  margin-left: 32px;
+  float: left;
+}
+/* line 14, ../../app/styles/modules/_migration__explore-toyota.scss */
+.migration-explore-toyota__list > li:first-child {
+  margin-left: 0;
+}
+
+/* line 19, ../../app/styles/modules/_migration__explore-toyota.scss */
+.migration-explore-toyota__link {
+  display: block;
+  text-align: center;
+}
+/* line 22, ../../app/styles/modules/_migration__explore-toyota.scss */
+.migration-explore-toyota__link:hover .migration-explore-toyota__title {
+  text-decoration: underline;
+}
+
+/* line 26, ../../app/styles/modules/_migration__explore-toyota.scss */
+.migration-explore-toyota__title {
+  color: #252525;
+  font-size: 16px;
+  line-height: 1.4;
+  padding: 14px 0;
+  display: block;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+/* line 35, ../../app/styles/modules/_migration__explore-toyota.scss */
+.migration-explore-toyota__cta {
+  display: block;
+  text-align: center;
+  padding-right: 12px;
+}
+/* line 39, ../../app/styles/modules/_migration__explore-toyota.scss */
+.migration-explore-toyota__cta:hover .migration-explore-toyota__cta__text {
+  text-decoration: underline;
+}
+
+/* line 43, ../../app/styles/modules/_migration__explore-toyota.scss */
+.migration-explore-toyota__cta__text {
+  color: #252525;
+  font-size: 13px;
+  line-height: 1.4;
+  padding: 12px 0;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+}
+/* line 51, ../../app/styles/modules/_migration__explore-toyota.scss */
+.migration-explore-toyota__cta__text:after {
+  left: 100%;
+  top: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-left-color: #ec0a1e;
+  border-width: 4px;
+  margin-top: -4px;
+  margin-left: 5px;
+}
+
+/* line 66, ../../app/styles/modules/_migration__explore-toyota.scss */
+.migration-explore-toyota__icon {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+.migration-engage {
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: -1px;
+}
+.migration-engage h3 {
+  font-weight: normal;
+}
+.migration-engage a {
+  color: #636363;
+  text-decoration: none;
+}
+.migration-engage img {
+  display: block;
+  border: none;
+}
+.migration-engage table {
+  width: 100%;
+}
+.migration-engage input[type=search] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-modify: read-write-plaintext-only;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+.migration-engage input[type=search]::-webkit-search-cancel-button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.migration-engage .relative {
+  position: relative;
+}
+.migration-engage .block {
+  display: block;
+}
+.migration-engage .inline-block {
+  display: inline-block;
+}
+.migration-engage .full-width {
+  width: 100%;
+}
+#migration-sns-area {
+  margin: 0 50px;
+}
+.addthis_toolbox {
+  margin-top: 35px;
+}
+.addthis_button_google_plusone {
+  margin-left: 6px;
+}
+.addthis_button_tweet {
+  /* margin-left: -25px; */
+}
+.addthis_button_linkedin_counter {
+  margin-left: -25px;
+  margin-bottom:2px;
+}
+.addthis_counter {
+  margin-left: 8px;
+}
+#disqus_thread {
+  margin-top: 25px;
+}
+.breadcrumbs {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+.migration-recommended-carousel__but {
+  background-image: url(/images_new/a792b5a0.recommended-carousel-arrows.png);
+}
+.migration-engage-tabs__tab {
+  font-family: toyotaDisplay, Helvetica, Arial, sans-serif;
+}

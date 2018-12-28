@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-08-25T16:51:37.284+05:30"
+        cq:lastModifiedBy="reference-adjustment-service"
+        cq:template="/apps/toyota-bharat/templates/page-content"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Toyota Kirloskar Motor launches ‘TOYOTA CONNECT’ smartphone app based Connected services"
+        jcr:uuid="ac65cb2f-1155-49ae-800b-e5b9799babad"
+        sling:resourceType="toyota-bharat/components/structure/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="toyota-bharat/components/structure/logo"/>
+        <title
+            jcr:lastModified="{Date}2017-07-26T15:36:34.574+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Toyota Kirloskar Motor launches ‘TOYOTA CONNECT’ smartphone app based Connected services"
+            sling:resourceType="toyota-bharat/components/content/title"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="toyota-bharat/components/structure/topnav"/>
+        <image
+            jcr:created="{Date}2017-07-19T12:07:00.511+05:30"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2017-07-25T10:43:22.613+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="toyota-bharat/components/content/image"
+            fileName="lc1_tcm34-118187.jpg"
+            fileReference="/content/dam/toyota-bharat/news/lc1_tcm34-118187.jpg"
+            height="0"
+            imageRotate="0"
+            width="0">
+            <file/>
+        </image>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <image
+                jcr:created="{Date}2017-07-24T12:48:24.817+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-07-24T12:48:24.817+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="toyota-bharat/components/content/image"
+                fileName="lc1_tcm34-118187.jpg"
+                fileReference="/content/dam/toyota-bharat/news/lc1_tcm34-118187.jpg"/>
+            <newspara_text
+                jcr:created="{Date}2017-07-24T12:06:05.291+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-07-24T12:07:02.209+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="toyota-bharat/components/content/newspara-text"
+                text="&lt;p>&lt;b>Bangalore, 20&lt;sup>th&lt;/sup>&amp;nbsp;July 2017:&lt;/b>&amp;nbsp;After sustained success in the first two phases, Toyota Kirloskar Motor’s sales campaign, “Drive the Nation” designed for Government employees has been extended to the third phase. The nationwide campaign has been highly appreciated by Government Employees since its inception for the integrated offers comprising of unique value added services on the purchase of products under Etios series. This campaign is in line with the customer first philosophy, which has been the driving force behind any innovative products and services introduced by the company in the market.&lt;/p>&#xa;&lt;p>It has contributed to around 10% of Etios series personal segment sales. TKM has also reduced the price of Platinum Etios &amp;amp; Liva post GST roll out to pass on the benefit to customers. The offer has been extended to third phase for Central and State Government Employees based on overwhelming feedback from customers who are proud owners of Etios and have availed the ‘FAMILY offer’. Etios series has stood the test of time over the years as the most dependable vehicle for Indian families.&lt;/p>&#xa;&lt;p>The Etios series boasts of a unique combination of Toyota’s Global Promise of Quality, Durability &amp;amp; Reliability (QDR) backed by features like that larger cabin, luggage space, high fuel economy and lowest ownership cost to cater to the evolving needs of Indian customers. With the launch of “The New Platinum Etios &amp;amp; New Etios Liva” last year the company has set new standards of safety, dependability, quality and performance. Government Employees have highly acknowledged the unmatched safety features including dual SRS airbags, advanced standardized Anti-Lock Braking System (ABS) with Electronic Brake-force Distribution (EBD) and Isofix child seat locks for infants in the Etios series. Testimony to its position as one of the segment leaders in terms of passenger safety, the Etios was presented with the coveted 4 Stars in Global NCAP Crash Test adult occupant safety for the year 2016. Customers have time and again appreciated the experience at the World class dealerships of Toyota.&lt;/p>&#xa;&lt;p>“Drive the Nation” – a “one-stop-shop” of integrated offers to car buyers entails affordable funding solutions focused on low customer acquisition cost, attractive offers on Toyota Protect Insurance and Toyota Genuine Accessories, maintenance package and unmatched extended warranty. The campaign will comprise a series of value added services under the name F.A.M.I.L.Y offer:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>&lt;b>F&lt;/b>&amp;nbsp;- Finance – 100% On-Road Funding for 7 Yrs. with ZERO Down payment&lt;/li>&#xa;&lt;li>&lt;b>A&lt;/b>&amp;nbsp;- Service Value Maintenance Pack – Save 25%* on Maintenance Cost.&lt;/li>&#xa;&lt;li>&lt;b>M&lt;/b>&amp;nbsp;- Special 10% discount on Premium TGA Package.&lt;/li>&#xa;&lt;li>&lt;b>I&lt;/b>&amp;nbsp;- Insurance – Attractive Insurance Benefits – Return to Invoice&lt;/li>&#xa;&lt;li>&lt;b>L&lt;/b>&amp;nbsp;- Exchange/Loyalty – 10,000 Rs/- Loyalty Bonus or Attractive Exchange Benefits thru U-Trust Dealers.&lt;/li>&#xa;&lt;li>&lt;b>Y&lt;/b>&amp;nbsp;- Extended Warranty – Avail up to 5 Years / 180,000 km*.&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>From this phase, blood relatives of central and state government employees are eligible to avail the benefits offered by the campaign.&lt;/p>&#xa;&lt;p>“Drive the Nation champions” have been appointed in each of the sales outlet of TKM in order to give dedicated attention to all government employee enquiries. This promotional offer will be supported through Toyota’s large sales and service network spread across the country.&lt;/p>&#xa;&lt;p>Speaking on the initiative,&amp;nbsp;&lt;b>N Raja, Director &amp;amp; Senior Vice President (Sales &amp;amp; Marketing), Toyota Kirloskar Motor Pvt. Ltd&lt;/b>&amp;nbsp;said “We are delighted to further extend the “Drive the Nation” campaign after receiving overwhelming response the government employees. The wide acceptance we received for the past two phases of the campaign and the increase in sales of Etios series is a testament to the fact that customers have appreciated the great value that our products offer. It is to cater to the growing demands of our valued customer base that we have rolled out the third phase of “Drive the Nation”. It is our endeavor to set the benchmark in customer delight and we will keep innovating to offer the best products and services to our customer base.&lt;/p>&#xa;&lt;p>Government employees serve our country with unceasing pride and responsibility, and we feel that they deserve a car which is as dependable. The Etios series with features like a large cabin, luggage space, high fuel economy, low cost of ownership and backed by Toyota’s Global Promise of Quality, Durability &amp;amp; Reliability, we feel is an apt choice to be the ideal “family car”, he added.&lt;/p>&#xa;&lt;p>A proud owner of a brand new Platinum Etios, who availed the special offers under the campaign said, “I appreciate the efforts taken by Toyota to acknowledge our contributions. When I decided to buy a car, Toyota was my obvious choice for its dependability and commendable after sales service that the company offers. With the range of benefits offered through the “Drive the Nation” campaign, my purchase experience was a delight, showing Toyota’s promise to its “Customer First” philosophy.”&lt;/p>&#xa;"
+                textIsRich="true"/>
+        </par>
+    </jcr:content>
+</jcr:root>

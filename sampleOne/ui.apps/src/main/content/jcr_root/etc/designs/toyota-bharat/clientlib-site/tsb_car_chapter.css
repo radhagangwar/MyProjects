@@ -1,0 +1,1889 @@
+/* tsb_car_chapter */
+
+@font-face {
+	font-family: "toyotaicons";
+	src: url('/etc/designs/toyota-bharat/clientlib-site/fonts/toyotaicons.woff');
+	font-weight: normal;
+	font-style: normal;
+}
+.icon-info-sign {
+	font-style:normal;
+}
+.icon-info-sign:before {
+	content: "\f05a";
+	font-family: toyotaicons;
+	padding:0px 0px 0 4px;
+}
+#content{
+	font-family: toyotaDisplay, Verdana, Helvetica, Arial, sans-serif;
+	position:relative;
+}
+#content h2{
+	font-size:35px;
+	line-height:1em;
+	text-align:center;
+}
+#content .sections{
+	border-top:1px solid #d0d0d0;
+	overflow:hidden;
+	position:relative;
+	padding:35px 0 !important;
+}
+#content .sections .core{
+}
+
+/* main_visual */
+#main_visual {
+	background-color:#fff;
+	padding-bottom:16px;
+}
+#main_visual .main_visual {
+	position:relative;
+}
+#main_visual .main_visual img {
+	width:100%;
+}
+#main_visual .main_visual_title {
+	position:absolute;
+	left:30px;
+	top:16px;
+	color:#c6c6c6;
+	font-size:64px;
+	font-weight:bold;
+	line-height:1em;
+}
+#main_visual .main_visual_title.line-two {
+	font-size:60px;
+}
+#main_visual .main_visual_title.line-three {
+	font-size:48px;
+}
+#main_visual .main_visual_title.top-right {
+	left:auto;
+	right:30px;
+	text-align:right;
+}
+#main_visual .main_visual_title.bottom-left {
+	top:auto;
+	bottom:16px;
+}
+#main_visual .main_visual_title.bottom-right {
+	top:auto;
+	bottom:16px;
+	left:auto;
+	right:30px;
+	text-align:right;
+}
+#main_visual .bx-wrapper a {
+	top: 50%;
+}
+#main_visual .bx-viewport {
+	overflow:hidden;
+}
+
+#main_visual .quick-spec {
+	width:46%;
+	margin:0;
+	padding:15px 10px 0px 10px;
+	-webkit-text-size-adjust: 100%;/* disable auto font-size adjust for iPhone*/
+}
+#main_visual .quick-spec img {
+	width:100%;
+}
+#main_visual .quick-spec.prices1 {
+	float:left;
+	background-color:#ebebeb;
+	color:#333333;
+}
+#main_visual .quick-spec.prices2 {
+	float:right;
+	background-color:#30cefa;
+	color:#FFFFFF;
+}
+#main_visual .quick-spec p.title {
+	font-size: 20px;
+	font-weight:bold;
+	line-height:1em;
+	white-space: nowrap;
+	
+}
+.carchapter-suttitle {
+	padding:0 0 15px 0;
+}
+#main_visual .quick-spec p {
+	line-height:1.3em;
+}
+#main_visual .quick-spec p.quickspec-label {
+	line-height:1em;
+}
+#main_visual .quick-spec p.metric {
+	font-size:18px;
+	font-weight:bold;
+}
+#main_visual .quick-spec .col-number {
+	display:block;
+	float:left;
+	padding-right:10px;
+	margin-right:10px;
+	margin-bottom:15px;
+}
+#main_visual .quick-spec.prices .col-number {
+	border-right:1px solid #333;
+}
+#main_visual .quick-spec.prices2 .col-number {
+	border-right:1px solid #fff;
+}
+#main_visual .quick-spec .col-number.last-child {
+	border-right:none;
+	padding-right:0px;
+	margin-right:0px;
+}
+
+#main_visual .inner {
+	clear:both;
+	padding:0 40px 20px 40px;
+}
+#main_visual .inner h3 {
+	text-align:center;
+	font-size:38px;
+	padding:0 0 10px 0;
+	line-height:1.2em
+}
+
+/* topselector */
+#topselector.selector {
+	position:absolute;
+	left:20px;
+	top:10px;
+}
+#topselector.selector .btn {
+	display:inline;
+	font-size:116%;
+	line-height:1em;
+	padding:4px 20px;
+	-webkit-text-size-adjust: 100%;/* disable auto font-size adjust for iPhone*/
+}
+#topselector.selector .btn:hover, #topselector.selector .btn.current {
+	border-radius: 16px;
+	color:#fff;
+	background-color:#e70d22;
+	background: -moz-linear-gradient(top, #d20c1f 0%, #e92235);
+	background: -webkit-gradient(linear, left top, left bottom, from(#d20c1f), to(#e92235));
+}
+
+/* Latest Offers */
+#latest_offers {
+}
+#latest_offers .core {
+	width:100%;
+}
+#latest_offers .image {
+	width:55%;
+	float:right;
+}
+#latest_offers .image img {
+	width:100%;
+}
+#latest_offers .inner {
+	width:40%;
+	float:left;
+	padding:120px 0 0 40px;
+}
+#latest_offers .inner h3 {
+	line-height:1em;
+	font-size:30px;
+	padding-bottom:10px;
+}
+#latest_offers .finance-rate {
+	font-size:24px;
+	line-height:1em;
+	padding-bottom:4px;
+}
+
+/* view_specification */
+#view_specification {
+	background-color:#ebebeb;
+}
+#view_specification .note {
+	text-align:center;
+	padding-bottom:20px;
+}
+#view_specification .item-list .item {
+	display:block;
+	width:33.33%;
+	min-height:300px;
+	padding-bottom:20px;
+	float:left;
+}
+#view_specification .item-list .item ul {
+	width:80%;
+	margin:0 auto;
+}
+#view_specification .item-list .item .type-grade {
+	font-size:17px;
+	font-weight:bold;
+	line-height:1.4em;
+}
+#view_specification .item-list .item .item_thum img {
+	width:100%;
+	margin:0 auto;
+}
+#view_specification .item-list .item .label-default {
+	display:inline-block;
+	background: #00a0f0;
+	border-radius: 2px;
+	color: #fff;
+	padding: 2px 6px;
+	font-size:10px;
+	line-height:1em;
+}
+#view_specification .item-list .item .engine-title {
+	color:#00a0f0;
+	font-weight:bold;
+}
+#view_specification .item-list .item .btn-select{
+	padding-top:5px;
+}
+#view_specification .item-list .item .btn-select label{
+	display:block;
+	width:80%;
+	margin:0 auto;
+	border-radius: 16px;
+	color:#fff;
+	background-color:#737373;
+	background: -moz-linear-gradient(top, #696969 0%, #7f7f7f);
+	background: -webkit-gradient(linear, left top, left bottom, from(#696969), to(#7f7f7f));
+	text-align:center;
+	cursor:pointer;
+}
+#view_specification .item-list .item .btn-select input {
+	margin:0;
+}
+#view_specification .item-list .item .btn-select label {
+	font-size:15px;
+}
+
+#view_specification .btn_send {
+	clear:both;
+	width:180px;
+	margin:0 auto;
+	text-align:center;
+	font-size:18px;
+	border-radius: 16px;
+	color:#fff;
+	background-color:#e70d22;
+	background: -moz-linear-gradient(top, #d20c1f 0%, #e92235);
+	background: -webkit-gradient(linear, left top, left bottom, from(#d20c1f), to(#e92235));
+	cursor:pointer;
+}
+#view_specification .btn_send:hover {
+	background-color:#F00;
+	background: -moz-linear-gradient(top, #f00 0%, #e92235);
+	background: -webkit-gradient(linear, left top, left bottom, from(#f00), to(#e92235));
+}
+
+
+/* topfeatures */
+#top-features {
+        margin-top: -64px;
+}
+#top-features .image img {
+	width:100%;
+}
+#top-features h3 {
+	font-size:25px;
+	text-align:center;
+}
+#top-features .inner {
+	padding:50px 40px 0 40px;
+	background:url(/tsb_images/tf-text-bg.png) left top repeat-x;
+	position:relative;
+	top:-50px;
+	margin-bottom: -40px;
+	margin-top: 10px;
+}
+#top-features .spacer{
+	visibility:hidden;
+	width:100%;
+}
+#top-features .alternate {
+	width:100%;
+	display:none;
+}
+#top-features.no_parx .spacer{
+	display:none;
+}
+#top-features.no_parx .alternate{
+	display:block;
+}
+
+#top-features .btn_movieplay{
+	width:100%;
+	height:100%;
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+	margin:0;
+	background:url(/tsb_images/btn_movieplay.png) 50%  50% no-repeat;
+	cursor:pointer;
+}
+
+
+/* features */
+#features {
+	border-top:1px solid #d0d0d0;
+	padding:16px 0;
+	width:auto;
+	overflow:auto;
+}
+#features .selector .btn {
+	display:inline;
+	font-size:116%;
+	line-height:2em;
+	padding:4px 20px;
+	-webkit-text-size-adjust: 100%;/* disable auto font-size adjust for iPhone*/
+	cursor:pointer;
+}
+#features .selector .btn:hover, #features .selector .btn.active {
+	border-radius: 16px;
+	color:#fff;
+	background-color:#e70d22;
+	background: -moz-linear-gradient(top, #d20c1f 0%, #e92235);
+	background: -webkit-gradient(linear, left top, left bottom, from(#d20c1f), to(#e92235));
+}
+#features .item-list .item {
+	width:100%;
+	display:none;
+	padding-bottom:20px;
+}
+#features .item-list .item:first-child {
+/*	display:block;*/
+}
+#features .item-list .item ul {
+	width:90%;
+	margin:0 auto;
+/*	min-height:230px; */
+}
+#features .item-list .item li {
+	line-height:1.5em;
+}
+#features .item-list .item .item_thum {
+	padding-bottom:10px;
+}
+#features .item-list .item .item_thum img {
+	width:100%;
+}
+#features .item-list .item .item_title {
+	font-weight:bold;
+}
+/* selectcolor */
+#selectcolor {
+
+}
+#selectcolor h2 {
+
+}
+#color_chooser_box {
+ margin-bottom: 20px;
+}
+#color_chooser_box dl {
+	margin:0 40px !important;
+}
+#color_chooser_box dt {
+	width:80px !important;
+	padding:10px 0 0 0 !important;
+	float:left !important;
+}
+#color_chooser_box dd {
+	padding:0 0 0 80px !important;
+}
+#color_chooser_box ul#palette {
+}
+#color_chooser_box ul#palette li {
+	display: inline-block;
+	cursor: pointer;
+	text-align:center;
+	position:relative;
+}
+
+#color_chooser_box ul#palette li span {
+	width:100px;
+	position:absolute;
+	top:50px;
+	left:-28px;
+	display:none;
+}
+
+#car_colors img {
+	width: 57%;
+	margin:0 auto;
+}
+
+/* view360 */
+#view360 {
+	border-top:1px solid #d0d0d0;
+	padding:16px 0;
+}
+#view360 .contents_banner {
+	margin:0 30px;
+}
+#view360 .contents_banner a img {
+	width:100%;
+}
+#view360 .contents_banner a {
+	display:block;
+}
+
+/*banner*/
+.banner {
+	border-top:1px solid #d0d0d0;
+	padding:30px 0;
+}
+.banner .contents_banner {
+	/* margin:0 30px; */
+}
+.banner .contents_banner a img {
+	width:100%;
+}
+.banner .contents_banner a {
+	display:block;
+}
+
+
+
+/* gallery */
+#gallery {
+}
+
+/* video */
+#video {
+}
+#video .inner{
+	margin:0 30px;
+	text-align:center;
+}
+#video .item-list{
+	width:100%;
+}
+#video .item-list li {
+	width:25%;
+	display:inline-block;
+	min-height:230px;
+	vertical-align: top;
+}
+#video .item-list li p {
+	margin:0 10px 5px 10px;
+	position:relative;
+}
+#video .item-list li img{
+	width:100%;
+}
+#video .btn_movieplay{
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	display:block;
+	position:absolute;
+	left:0;
+	top:0;
+	margin:0;
+	background:url(/tsb_images/btn_movieplay_small.png) 50% 50% no-repeat;
+	cursor:pointer;
+}
+
+
+/* reviews */
+#reviews .selector {
+}
+#reviews .selector .btn {
+	display:inline;
+	font-size:116%;
+	line-height:2em;
+	padding:4px 20px;
+	-webkit-text-size-adjust: 100%;/* disable auto font-size adjust for iPhone*/
+	cursor:pointer;
+}
+#reviews .selector .btn:hover, #reviews .selector .btn.active {
+	border-radius: 16px;
+	color:#fff;
+	background-color:#e70d22;
+	background: -moz-linear-gradient(top, #d20c1f 0%, #e92235);
+	background: -webkit-gradient(linear, left top, left bottom, from(#d20c1f), to(#e92235));
+}
+#reviews .item-list {
+	margin:0 10px;
+}
+#reviews .item-list .item {
+	width:100%;
+	display:none;
+	-webkit-text-size-adjust: 100%;/* disable auto font-size adjust for iPhone*/
+}
+#reviews .item-list .item:first-child {
+	margin:10px 0 0 0;
+}
+#reviews .item-list .item ul {
+	width:90%;
+	margin:0 auto;
+}
+#reviews .item-list .item .item_thum img {
+	width:100%;
+}
+#reviews .item-list .item .item_title {
+	/* font-weight:bold; */
+	margin:5px 0 0 0;
+	line-height: 1.7;
+}
+
+/* award */
+#award .item-list .item {
+	width:100%;
+	padding-bottom:20px;
+	-webkit-text-size-adjust: 100%;/* disable auto font-size adjust for iPhone*/
+}
+#award .item-list .item ul {
+	margin:0 auto;
+}
+#award .item-list .item .item_thum {
+	margin:0 0 5px 0;
+}
+#award .item-list .item .item_thum img {
+	width:100%;
+}
+#award .item-list .item .item_title {
+	font-weight:bold;
+}
+#award .bx-wrapper .bx-controls-direction a {
+	top:60px;
+	margin-top:0;
+}
+
+/* owner voice */
+#owner_voice .item-list .item {
+	width:100%;
+	padding-bottom:20px;
+	-webkit-text-size-adjust: 100%;/* disable auto font-size adjust for iPhone*/
+}
+#owner_voice .item-list .item:first-child {
+	display:block;
+}
+#owner_voice .item-list .item ul {
+	margin:0 auto;
+}
+#owner_voice .item-list .item img {
+	width:100%;
+	margin:0 0 5px 0;
+}
+#owner_voice .item-list .item .item_title {
+	font-weight:bold;
+}
+#owner_voice .bx-wrapper .bx-prev {
+	background :url(/showroom/vehicle_gallery/images/common/btn_prev_white.png) no-repeat;
+}
+#owner_voice .bx-wrapper .bx-next {
+	background :url(/showroom/vehicle_gallery/images/common/btn_next_white.png) no-repeat;
+}
+#owner_voice .bx-wrapper .bx-controls-direction a {
+	top:90px;
+	margin-top:0;
+}
+
+/* service */
+#service {
+	background-color:#ebebeb;
+}
+#service .note {
+	text-align:center;
+	padding-bottom:20px;
+}
+#service .item-list {
+}
+#service .item-list .item {
+	width:100%;
+	padding-bottom:20px;
+	-webkit-text-size-adjust: 100%;/* disable auto font-size adjust for iPhone*/
+}
+#service .item-list .item:first-child {
+	display:block;
+}
+#service .item-list .item ul {
+	margin:0 auto;
+}
+#service .item-list .item .item_thum {
+	margin:0 0 5px 0;
+}
+#service .item-list .item .item_thum img {
+	width:100%;
+}
+
+#service .item-list .item .item_title {
+	font-weight:bold;
+}
+#service .bx-wrapper .bx-controls-direction a {
+	top:90px;
+	margin-top:0;
+}
+
+/* utility link */
+#utility_link .bx-wrapper .bx-controls-direction a {
+	top:90px;
+	margin-top:0;
+}
+
+/* other_models */
+#other_models_section {
+	color:#878787;
+	font-size:17px;
+	text-align:center;
+}
+#other_models_section .other-models li {
+	width: 145px !important;
+	overflow:hidden;
+	float:left;
+}
+#other_models_section .other-models img {
+	width:100%;
+	padding:0 0 10px 0;
+}
+
+
+/* why_choose_toyota */
+#why_choose_toyota {
+	border-top:1px solid #d0d0d0;
+	background-color:#ff0a1e;
+}
+#why_choose_toyota h2 {
+	color:#fff;
+}
+#why_choose_toyota .item-list .item {
+	width:100%;
+	-webkit-text-size-adjust: 100%;/* disable auto font-size adjust for iPhone*/
+}
+#why_choose_toyota .item-list .item:first-child {
+	display:block;
+}
+#why_choose_toyota .item-list .item ul {
+	margin:0 auto;
+	font-size:17px;
+}
+#why_choose_toyota .item-list .item li {
+	text-align:center;
+	color:#fff;
+}
+#why_choose_toyota .item-list .item .item_thum img {
+	width:100%;
+}
+#why_choose_toyota .item-list .item .item_title {
+	font-size:25px;
+	line-height:1.2em;
+	padding:10px 0;
+	-webkit-text-size-adjust: 100%;/* disable auto font-size adjust for iPhone*/
+}
+#why_choose_toyota .bx-wrapper .bx-prev {
+	background :url(/showroom/vehicle_gallery/images/common/btn_prev_white.png) no-repeat;
+}
+#why_choose_toyota .bx-wrapper .bx-next {
+	background :url(/showroom/vehicle_gallery/images/common/btn_next_white.png) no-repeat;
+}
+#why_choose_toyota .bx-wrapper .bx-controls-direction a {
+	top:95px;
+	margin-top:0;
+}
+
+/* special_content */
+#special_content {
+	padding:30px;
+}
+#special_content p img {
+	width:100%;
+}
+
+#more_from_toyota h3 {
+	font-size:30px;
+	border-top:1px solid #d0d0d0;
+	margin:0;
+	padding-top:30px;
+}
+
+#recommended h3 {
+	font-size:30px;
+	border-top:1px solid #d0d0d0;
+	margin:0;
+	padding-top:30px;
+}
+
+
+/*page_navi_top*/
+#page_navi_top {
+	padding:0 10px;
+	overflow:auto;
+	border-top: solid 1px #aaaaaa;
+	border-bottom: solid 1px #aaaaaa;
+	background-color:#b2b2b2;
+}
+#page_navi_top ul {
+	width:100%;
+	display:block;
+}
+#page_navi_top li {
+	float:left;
+	width:14%;
+	border:none;
+	position:relative;
+}
+#page_navi_top li  a {
+	color:#fff;
+	text-align:center;
+	display:block;
+	width:auto;
+	line-height:1em;
+	padding:12px 0 10px 0;
+	border:none;
+}
+#page_navi_top li.current a {
+	color: #eb0a1e;
+}
+#page_navi_top li.current a:after{
+	content:" ";
+	position:absolute;
+	left:0;
+	top:0;
+	display:block;
+	width:100%;
+	height:8px;
+	background-color:#666;
+}
+#page_navi_top li  a:hover{
+	color:#eb0a1e;
+}
+
+/* page_navi_bottom */
+#page_navi_bottom {
+	border-top:1px solid #d0d0d0;
+	border-bottom:1px solid #d0d0d0;
+	background-color:#b2b2b2;
+	overflow:auto;
+}
+#page_navi_bottom ul{
+	width:100%;
+}
+#page_navi_bottom li {
+	width:14.28%;
+	float:left;
+	border-bottom:1px solid #d0d0d0;
+	display:table;
+	box-sizing:border-box;
+}
+#page_navi_bottom li  a {
+	width:auto;
+	height:60px;
+	vertical-align:middle;
+	color:#fff;
+	text-align:center;
+	line-height:1.2em;
+	display:block;
+	padding:0;
+	border-right:1px solid #d0d0d0;
+	display:table-cell;
+}
+#page_navi_bottom li  a:hover{
+	color:#eb0a1e;
+}
+
+
+/* color blue*/
+#blue #main_visual {
+	border-top:solid 13px #002d64;
+}
+#blue #main_visual .main_visual_title {
+	color:#8c8c8c;
+}
+#blue #content h2,
+#blue #content h3,
+#blue #latest_offers .finance-rate,
+#blue #more_from_toyota h3,
+#blue #recommended h3 {
+	color:#002d64;
+}
+#blue .quick-spec.prices2 {
+	background-color:#002d64;
+}
+#blue #view_specification {
+	color:#fff;
+	background-color:#002d64;
+}
+#blue #view_specification h2 {
+	color:#fff;
+}
+#blue #view_specification .item-list .item .engine-title {
+	color:#fff;
+}
+#blue #view_specification .item-list .item .icon-info-sign {
+	color:#00a0f0;
+}
+#blue #reviews,
+#blue #owner_voice {
+	color:#fff;
+	background-color:#002d64;
+}
+#blue #reviews h2,
+#blue #owner_voice h2 {
+	color:#fff;
+}
+#blue #why_choose_toyota h2 {
+	color:#fff;
+}
+/*page_navi_top*/
+#blue #page_navi_top {
+	background-color:#002d64;
+}
+#blue #page_navi_top li.current a:after{
+	background-color:#4d6c93;
+}
+
+/* page_navi_bottom */
+#blue #page_navi_bottom {
+	border-top:1px solid #4d6c93;
+	border-bottom:1px solid #4d6c93;
+	background-color:#002d64;
+}
+#blue #page_navi_bottom ul{
+	width:100%;
+}
+#blue #page_navi_bottom li {
+	border-bottom:1px solid #4d6c93;
+}
+#blue #page_navi_bottom li  a {
+	border-right:1px solid #4d6c93;
+}
+
+
+/* color red*/
+#red #main_visual {
+	border-top:solid 13px #b9144b;
+}
+#red #main_visual .main_visual_title {
+	color:#555555;
+}
+#red #content h2,
+#red #content h3,
+#red #latest_offers .finance-rate,
+#red #more_from_toyota h3,
+#red #recommended h3 {
+	color:#b9144b;
+}
+#red .quick-spec.prices2 {
+	background-color:#b9144b;
+}
+#red #view_specification {
+	color:#fff;
+	background-color:#b9144b;
+}
+#red #view_specification h2 {
+	color:#fff;
+}
+#red #view_specification .item-list .item .engine-title {
+	color:#fff;
+}
+#red #view_specification .item-list .item .icon-info-sign {
+	color:#00a0f0;
+}
+#red #reviews,
+#red #owner_voice {
+	color:#fff;
+	background-color:#b9144b;
+}
+#red #reviews h2,
+#red #owner_voice h2 {
+	color:#fff;
+}
+#red #why_choose_toyota h2 {
+	color:#fff;
+}
+/*page_navi_top*/
+#red #page_navi_top {
+	background-color:#b9144b;
+}
+#red #page_navi_top li.current a {
+	color: #00fff5;
+}
+#red #page_navi_top li.current a:after{
+	background-color:#ce5b81;
+}
+#red #page_navi_top li  a:hover{
+	color:#00fff5;
+}
+
+/* page_navi_bottom */
+#red #page_navi_bottom {
+	border-top:1px solid #ce5b81;
+	border-bottom:1px solid #ce5b81;
+	background-color:#b9144b;
+}
+#red #page_navi_bottom li {
+	border-bottom:1px solid #ce5b81;
+}
+#red #page_navi_bottom li  a {
+	border-right:1px solid #ce5b81;
+}
+#red #page_navi_bottom li  a:hover{
+	color:#00fff5;
+}
+
+
+/* color grey*/
+#grey #main_visual {
+	border-top:solid 0 white;
+}
+#grey #main_visual .main_visual_title {
+	color:#787878;
+}
+#grey #content h2,
+#grey #content h3,
+#grey #latest_offers .finance-rate,
+#grey #more_from_toyota h3,
+#grey #recommended h3 {
+	color:#737373;
+}
+#grey .quick-spec.prices2 {
+	background-color:#a0a0a0;
+}
+#grey #view_specification {
+	background-color:#d7d7d7;
+	border-top:#aaaaaa solid 1px;
+	border-bottom:#aaaaaa solid 1px;
+}
+#grey #view_specification h2 {
+	color:#737373;
+}
+#grey #view_specification .item-list .item .engine-title {
+	color:#000000;
+}
+#grey #view_specification .item-list .item .icon-info-sign {
+	color:#00a0f0;
+}
+#grey #reviews,
+#grey #owner_voice {
+	background-color: rgba(255, 255, 255, 0);
+	border-top:#aaaaaa solid 1px;
+	border-bottom:#aaaaaa solid 1px;
+}
+#grey #reviews h2,
+#grey #owner_voice h2 {
+	color:#737373;
+}
+#grey #owner_voice .bx-wrapper .bx-prev {
+	background :url(/showroom/vehicle_gallery/images/common/btn_prev.png) no-repeat;
+}
+#grey #owner_voice .bx-wrapper .bx-next {
+	background :url(/showroom/vehicle_gallery/images/common/btn_next.png) no-repeat;
+}
+#grey #service {
+	background-color:#ffffff;
+}
+#grey #why_choose_toyota h2 {
+	color:#fff;
+}
+/*page_navi_top*/
+#grey #page_navi_top {
+	background-color:#333333;
+}
+#grey #page_navi_top li.current a {
+	color:#F0F0F0;
+}
+#grey #page_navi_top li.current a:after{
+	background-color:#FFFFFF;
+}
+#grey #page_navi_top li  a:hover{
+	color:#000000;
+}
+
+/* page_navi_bottom */
+#grey #page_navi_bottom {
+	border-top:1px solid #bdbdbd;
+	border-bottom:1px solid #bdbdbd;
+	background-color:#a0a0a0;
+}
+#grey #page_navi_bottom li {
+	border-bottom:1px solid #bdbdbd;
+}
+#grey #page_navi_bottom li  a {
+	border-right:1px solid #bdbdbd;
+}
+#grey #page_navi_bottom li  a:hover{
+	color:#ff0000;
+}
+
+
+/* color black*/
+#black #main_visual {
+	border-top:solid 13px #000000;
+}
+#black #main_visual .main_visual_title {
+	color:#969696;
+}
+#black #content h2,
+#black #content h3,
+#black #latest_offers .finance-rate,
+#black #recommended h3,
+#black #more_from_toyota h3 {
+	color:#000000;
+}
+#black .quick-spec.prices2 {
+	background-color:#000000;
+}
+#black #view_specification {
+	color:#fff;
+	background-color:#000000;
+}
+#black #view_specification h2 {
+	color:#fff;
+}
+#black #view_specification .item-list .item .engine-title {
+	color:#fff;
+}
+#black #view_specification .item-list .item .icon-info-sign {
+	color:#00a0f0;
+}
+#black #reviews,
+#black #owner_voice {
+	color:#fff;
+	background-color:#000000;
+}
+#black #reviews h2,
+#black #owner_voice h2 {
+	color:#fff;
+}
+#black #why_choose_toyota h2 {
+	color:#fff;
+}
+/*page_navi_top*/
+#black #page_navi_top {
+	background-color:#000000;
+}
+#black #page_navi_top li.current a:after{
+	background-color:#4d4d4d;
+}
+
+/* page_navi_bottom */
+#black #page_navi_bottom {
+	border-top:1px solid #4d4d4d;
+	border-bottom:1px solid #4d4d4d;
+	background-color:#000000;
+}
+#black #page_navi_bottom li {
+	border-bottom:1px solid #4d4d4d;
+}
+#black #page_navi_bottom li  a {
+	border-right:1px solid #4d4d4d;
+}
+
+
+/* color white*/
+#white #main_visual {
+	border-top:solid 13px #ffffff;
+}
+#white #content h2,
+#white #content h3,
+#white #latest_offers .finance-rate,
+#white #recommended h3,
+#white #more_from_toyota h3 {
+	color:#737373;
+}
+#white #content #why_choose_toyota h2 {
+	color:#FFFFFF;
+}
+#white .quick-spec.prices2 {
+	background-color:#FFFFFF;
+	border: solid 1px #aaaaaa;
+	color:#000000;
+}
+#white .quick-spec.prices2 .col-number {
+	border-right:1px solid #aaaaaa;
+}
+#white .quick-spec.prices2 .col-number.last-child {
+	border:none;
+}
+#white #view_specification {
+	background-color:#FFFFFF;
+}
+#white #reviews,
+#white #owner_voice {
+	background-color:#d7d7d7;
+}
+/*page_navi_top*/
+#white #page_navi_top {
+	background-color:#FFFFFF;
+}
+#white #page_navi_top li  a {
+	color:#000000;
+}
+#white #page_navi_top li.current a {
+	color: #eb0a1e;
+}
+#white #page_navi_top li.current a:after{
+	background-color:#b2b2b2;
+}
+
+/* page_navi_bottom */
+#white #page_navi_bottom {
+	border-top:1px solid #d0d0d0;
+	border-bottom:1px solid #d0d0d0;
+	background-color:#ffffff;
+}
+#white #page_navi_bottom li {
+	border-bottom:1px solid #d0d0d0;
+}
+#white #page_navi_bottom li  a {
+	color:#000000;
+	border-right:1px solid #d0d0d0;
+}
+#white #page_navi_bottom li  a:hover{
+	color:#eb0a1e;
+}
+
+
+/* color orange*/
+#orange #main_visual {
+	border-top:solid 13px #e65a00;
+}
+#orange #main_visual {
+	background-color:#000000;
+}
+#orange #main_visual .inner {
+	color:#ffffff;
+}
+#orange #main_visual .main_visual_title {
+	color:#FFFFFF;
+}
+#orange #content h2,
+#orange #content h3,
+#orange #latest_offers .finance-rate,
+#orange #more_from_toyota h3,
+#orange #recommended h3 {
+	color:#e65a00;
+}
+#orange .quick-spec.prices2 {
+	background-color:#e55c00;
+}
+.quick-spec.prices {
+	color:#333333;
+}
+
+#orange #view_specification {
+	color:#fff;
+	background-color:#e55c00;
+}
+#orange #view_specification h2 {
+	color:#fff;
+}
+#orange #view_specification .item-list .item .engine-title {
+	color:#fff;
+}
+#orange #view_specification .item-list .item .icon-info-sign {
+	color:#00a0f0;
+}
+#orange #reviews,
+#orange #owner_voice {
+	color:#fff;
+	background-color:#e65a00;
+}
+#orange #reviews h2,
+#orange #owner_voice h2 {
+	color:#fff;
+}
+#orange #why_choose_toyota h2 {
+	color:#fff;
+}
+/*page_navi_top*/
+#orange #page_navi_top {
+	background-color:#e65a00;
+}
+#orange #page_navi_top li.current a {
+	color: #0023ff;
+}
+#orange #page_navi_top li.current a:after{
+	background-color:#ee8c4d;
+}
+#orange #page_navi_top li  a:hover{
+	color:#0023ff;
+}
+
+/* page_navi_bottom */
+#orange #page_navi_bottom {
+	border-top:1px solid #ee8c4d;
+	border-bottom:1px solid #ee8c4d;
+	background-color:#e65a00;
+}
+#orange #page_navi_bottom li {
+	border-bottom:1px solid #ee8c4d;
+}
+#orange #page_navi_bottom li  a {
+	border-right:1px solid #ee8c4d;
+}
+#orange #page_navi_bottom li  a:hover{
+	color:#0023ff;
+}
+
+
+
+ @media (min-width: 640px) and (max-width: 767px) {
+#main_visual .main_visual_title {
+	left:30px;
+	top:24px;
+	font-size:84px;
+}
+#main_visual .main_visual_title.line-two {
+	font-size:74px;
+}
+#main_visual .main_visual_title.line-three {
+	font-size:54px;
+}
+#main_visual .main_visual_title.top-right {
+	left:auto;
+	right:30px;
+	text-align:right;
+}
+#main_visual .main_visual_title.bottom-left {
+	top:auto;
+	bottom:24px;
+}
+#main_visual .main_visual_title.bottom-right {
+	top:auto;
+	bottom:24px;
+	left:auto;
+	right:30px;
+	text-align:right;
+}
+
+#service .bx-wrapper .bx-controls-direction a {
+	top:150px;
+}
+#why_choose_toyota .bx-wrapper .bx-controls-direction a {
+	top:150px;
+}
+#owner_voice .bx-wrapper .bx-controls-direction a {
+	top:150px;
+}
+#award .bx-wrapper .bx-controls-direction a {
+	top:100px;
+}
+#utility_link .bx-wrapper .bx-controls-direction a {
+	top:150px;
+}
+}
+ 
+ @media (min-width: 768px) and (max-width: 979px) {
+#main_visual .main_visual_title {
+	left:50px;
+	top:24px;
+	font-size:94px;
+}
+#main_visual .main_visual_title.line-two {
+	font-size:84px;
+}
+#main_visual .main_visual_title.line-three {
+	font-size:64px;
+}
+#main_visual .main_visual_title.top-right {
+	left:auto;
+	right:50px;
+	text-align:right;
+}
+#main_visual .main_visual_title.bottom-left {
+	top:auto;
+	bottom:24px;
+}
+#main_visual .main_visual_title.bottom-right {
+	top:auto;
+	bottom:24px;
+	left:auto;
+	right:50px;
+	text-align:right;
+}
+#latest_offers .inner {
+	padding:20px 0 0 40px;
+}
+#service .bx-wrapper .bx-controls-direction a {
+	top:85px;
+}
+#why_choose_toyota .bx-wrapper .bx-controls-direction a {
+	top:55px;
+}
+#owner_voice .bx-wrapper .bx-controls-direction a {
+	top:55px;
+}
+#award .bx-wrapper .bx-controls-direction a {
+	top:15px;
+}
+#utility_link .bx-wrapper .bx-controls-direction a {
+	top:55px;
+}
+ }
+ @media (min-width: 980px) and (max-width: 1024px) {
+#main_visual .main_visual_title {
+	left:50px;
+	top:54px;
+	font-size:104px;
+}
+#main_visual .main_visual_title.line-two {
+	font-size:94px;
+}
+#main_visual .main_visual_title.line-three {
+	top:34px;
+	font-size:74px;
+}
+
+#main_visual .main_visual_title.top-right {
+	left:auto;
+	right:50px;
+	text-align:right;
+}
+#main_visual .main_visual_title.bottom-left {
+	top:auto;
+	bottom:54px;
+}
+#main_visual .main_visual_title.bottom-right {
+	top:auto;
+	bottom:54px;
+	left:auto;
+	right:50px;
+	text-align:right;
+}
+#latest_offers .inner {
+	padding:50px 0 0 40px;
+}
+
+#service .bx-wrapper .bx-controls-direction a {
+	top:110px;
+}
+#why_choose_toyota .bx-wrapper .bx-controls-direction a {
+	top:65px;
+}
+#owner_voice .bx-wrapper .bx-controls-direction a {
+	top:65px;
+}
+#award .bx-wrapper .bx-controls-direction a {
+	top:25px;
+}
+#utility_link .bx-wrapper .bx-controls-direction a {
+	top:65px;
+}
+ }
+ @media (min-width: 1025px) and (max-width: 1279px) {
+#main_visual .main_visual_title {
+	left:50px;
+	top:54px;
+	font-size:104px;
+}
+#main_visual .main_visual_title.line-two {
+	font-size:94px;
+}
+#main_visual .main_visual_title.line-three {
+	top:34px;
+	font-size:74px;
+}
+
+#main_visual .main_visual_title.top-right {
+	left:auto;
+	right:50px;
+	text-align:right;
+}
+#main_visual .main_visual_title.bottom-left {
+	top:auto;
+	bottom:54px;
+}
+#main_visual .main_visual_title.bottom-right {
+	top:auto;
+	bottom:54px;
+	left:auto;
+	right:50px;
+	text-align:right;
+}
+#latest_offers .inner {
+	padding:60px 0 0 40px;
+}
+
+#service .bx-wrapper .bx-controls-direction a {
+	top:100px;
+}
+#why_choose_toyota .bx-wrapper .bx-controls-direction a {
+	top:65px;
+}
+#owner_voice .bx-wrapper .bx-controls-direction a {
+	top:65px;
+}
+#award .bx-wrapper .bx-controls-direction a {
+	top:22px;
+}
+#utility_link .bx-wrapper .bx-controls-direction a {
+	top:60px;
+}
+ }
+ @media (min-width: 1280px) and (max-width: 1599px) {
+#main_visual .main_visual_title {
+	left:50px;
+	top:54px;
+	font-size:134px;
+}
+#main_visual .main_visual_title.line-two {
+	font-size:124px;
+}
+#main_visual .main_visual_title.line-three {
+	top:34px;
+	font-size:104px;
+}
+#main_visual .main_visual_title.top-right {
+	left:auto;
+	right:50px;
+	text-align:right;
+}
+#main_visual .main_visual_title.bottom-left {
+	top:auto;
+	bottom:54px;
+}
+#main_visual .main_visual_title.bottom-right {
+	top:auto;
+	bottom:54px;
+	left:auto;
+	right:50px;
+	text-align:right;
+}
+
+#service .bx-wrapper .bx-controls-direction a {
+	top:130px;
+}
+#why_choose_toyota .bx-wrapper .bx-controls-direction a {
+	top:82px;
+}
+#owner_voice .bx-wrapper .bx-controls-direction a {
+	top:82px;
+}
+#award .bx-wrapper .bx-controls-direction a {
+	top:38px;
+}
+#utility_link .bx-wrapper .bx-controls-direction a {
+	top:82px;
+}
+ }
+ @media (min-width: 1600px) {
+#main_visual .main_visual_title {
+	left:50px;
+	top:54px;
+	font-size:164px;
+}
+#main_visual .main_visual_title.line-two {
+	font-size:150px;
+}
+#main_visual .main_visual_title.line-three {
+	top:34px;
+	font-size:130px;
+}
+#main_visual .main_visual_title.top-right {
+	left:auto;
+	right:50px;
+	text-align:right;
+}
+#main_visual .main_visual_title.bottom-left {
+	top:auto;
+	bottom:54px;
+}
+#main_visual .main_visual_title.bottom-right {
+	top:auto;
+	bottom:54px;
+	left:auto;
+	right:50px;
+	text-align:right;
+}
+
+#service .bx-wrapper .bx-controls-direction a {
+	top:165px;
+}
+#why_choose_toyota .bx-wrapper .bx-controls-direction a {
+	top:110px;
+}
+#owner_voice .bx-wrapper .bx-controls-direction a {
+	top:110px;
+}
+#award .bx-wrapper .bx-controls-direction a {
+	top:48px;
+}
+#utility_link .bx-wrapper .bx-controls-direction a {
+	top:110px;
+}
+ }
+
+
+ @media (max-width: 767px) {
+#main_visual .inner {
+	padding:0 30px;
+}
+#main_visual .quick-spec {
+	width:90%;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+#main_visual .quick-spec.prices {
+	margin:0 0 20px 0;
+	float:none;
+}
+#main_visual .quick-spec.prices2 {
+	float:none;
+}
+#main_visual .quick-spec p.metric {
+	font-size:22px;
+}
+
+
+#content .section {
+	padding:0;
+}
+#content .section h2{
+	background:url(/tsb_images/btn_down.png) right center no-repeat;
+	cursor:pointer;
+	padding:16px 0;
+	border-right:20px solid transparent;
+}
+#content .section h2.active{
+	background:url(/tsb_images/btn_up.png) right center no-repeat;
+}
+#content .section h2.active+.core{
+}
+#view_specification .item-list .item {
+	min-height:250px;
+}
+#view_specification .btn_send {
+	margin:0 auto 20px auto;
+}
+
+#content #features.section .core{
+	display:block;
+}
+
+#content #features .selector .btn {
+	line-height:1.5em;
+}
+#content #features #features_selector {
+	margin:16px 20px;
+}
+
+#content #features #features_selector li {
+	display:block;
+	float:left;
+	margin-bottom:10px;
+}
+#content #reviews.section .core{
+	display:block;
+}
+#content #reviews .item-list .item {
+	padding-bottom:20px;
+}
+#content #reviews .selector .btn {
+	line-height:1.5em;
+}
+#content #reviews .selector {
+	margin:16px 20px;
+}
+
+#content #reviews .selector li {
+	display:block;
+	float:left;
+	margin-bottom:10px;
+}
+
+
+/* Latest Offers */
+#latest_offers .image {
+	width:90%;
+}
+#latest_offers .inner {
+	width:100%;
+	float:none;
+	padding:0 0 30px 30px;
+}
+
+/* select color */
+#color_chooser_box dl {
+	margin:0 30px;
+}
+
+/* view360 */
+#view360 .contents_banner {
+	margin:0 30px 30px 30px;
+}
+
+/* gallery */
+#gallery_photo_box{
+	margin:0 0 20px 0;
+}
+#gallery-pager_box{
+	width:400px;
+	padding:0 40px;
+	margin:0 auto 20px auto;
+}
+#gallery-pager_box .bx-wrapper .bx-controls-direction a{
+	top:50%;
+}
+#btn_download_media {
+	display:none;
+}
+
+/* video */
+#video .item-list li {
+	width:100%;
+	display:block;
+}
+
+/* service */
+#content #service.section .core{
+	display:block;
+}
+
+
+/* owner_voice */
+#content #owner_voice.section .core{
+	display:block;
+}
+
+
+/* award */
+#content #award .section .core{
+	display:block;
+}
+
+/* topselector */
+#topselector.selector {
+	top:10px;
+	width:100%;
+}
+#topselector.selector .btn.all {
+	line-height:3.5em;
+}
+#main_visual {
+	padding-top:0px;
+}
+.selector {
+	text-align:center;
+}
+
+
+/*page navi*/
+#page_navi_top {
+	display:none;
+}
+#page_navi_bottom li {
+	width:33.3%;
+}
+
+.disp-price {
+margin-left:3% !important;
+}
+
+}
+
+ @media (min-width: 768px) and (max-width: 1024px) {
+
+ .selector {
+	padding:0px 0px 30px 20px;
+	width:auto;
+	overflow:auto;
+}
+#features .item-list .item {
+	min-height:240px;
+}
+
+#video .item-list li {
+	min-height:200px;
+}
+
+/* gallery */
+#gallery {
+}
+#gallery_photo_box{
+	margin:0 10px 50px 12px;
+}
+#btn_download_media{
+	padding:0 0 0 15px;
+	position:absolute;
+	left:30px;
+	bottom:50px;
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_download.png) no-repeat 0 .2em;
+}
+#gallery-pager_box{
+	width:400px;
+	padding:0 40px;
+	margin:0 30px 0 auto;
+}
+#gallery-pager_box .bx-wrapper .bx-controls-direction a{
+	top:50%;
+}
+
+
+#view_specification .item-list .item {
+	min-height:290px;
+}
+
+}
+
+ @media (min-width: 1025px) {
+
+.selector {
+	padding:0px 0px 30px 20px;
+	width:auto;
+	overflow:auto;
+}
+#features .selector,
+#features .item-list {
+	margin:0 30px;
+}
+#features .item-list .item {
+/*	min-height:340px; */
+	min-height:250px;
+}
+
+/* gallery */
+#gallery {
+}
+#gallery_photo_box{
+	margin:0 30px 20px 30px;
+}
+#btn_download_media {
+	padding:0 0 0 15px;
+	position:absolute;
+	left:30px;
+	bottom:55px;
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_download.png) no-repeat 0 .2em;
+}
+#gallery-pager_box{
+	width:700px;
+	padding:0 40px;
+	margin:0 30px 0 auto;
+}
+#gallery-pager_box .item-list li{
+	cursor:pointer;
+}
+#gallery-pager_box .bx-wrapper .bx-controls-direction a{
+	top:50%;
+}
+
+
+
+/*page navi*/
+#page_navi_bottom { display:none; }
+
+}
+
+@media (min-width: 1480px) {
+#features .item-list .item {
+	min-height:310px;
+}
+#video .item-list li {
+	min-height:260px;
+}
+}
+
+@media (min-width: 768px) {
+#content h2{
+	padding-bottom:16px;
+	/*padding-bottom:35px;*/
+}
+#service h2,
+#view_specification h2 {
+	padding-bottom:6px;
+}
+
+#topselector.selector {
+	left:0;
+}
+#topselector.selector .btn {
+	float:left;
+	margin:0 2px;
+}
+#topselector.selector {
+	width:90%;
+}
+
+#main_visual .inner h3 {
+	text-align:left;
+}
+
+/* view_specification */
+#view_specification .note {
+	text-align:center;
+	padding-bottom:35px;
+}
+
+/* topfeatures */
+#top-features h3 {
+	text-align:left;
+}
+
+/*features*/
+#features .item-list .item {
+	width:25%;
+/*	float:left; */
+	vertical-align:top;
+}
+
+/* reviews */
+#reviews .item-list .item {
+	width:25%;
+/*	float:left; */
+	vertical-align:top;
+	margin-bottom: 4%;
+}
+#reviews .item-list .item:first-child {
+	margin:0;
+}
+
+
+/* service */
+#service .item-list .item {
+	width:50%;
+	float:left;
+}
+#service .item-list .item {
+	display:block;
+}
+
+
+/* owner_voice */
+#owner_voice .item-list .item {
+	width:33.33%;
+	float:left;
+}
+#owner_voice .item-list .item {
+	display:block;
+}
+
+
+/* award */
+#award .item-list .item {
+	width:25%;
+	float:left;
+}
+#award .item-list .item {
+	display:block;
+}
+
+
+/* why_choose_toyota */
+#why_choose_toyota .item-list .item {
+	width:33.33%;
+	float:left;
+}
+#why_choose_toyota .item-list .item {
+	display:block;
+}
+
+}
+
+.disp-price {
+
+display:inline-block;
+line-height:1.15;
+margin-left:13%;
+}
+.contents_banner{
+margin-bottom:35px;
+}

@@ -1,0 +1,2067 @@
+@media (max-width: 480px) { /* sp1 */
+}
+@media (min-width: 481px) and (max-width: 767px) { /* sp2 */
+}
+@media (min-width: 768px) and (max-width: 1024px) { /* tb */
+}
+@media (min-width: 1025px) and (max-width: 1800px) { /* pc */
+}
+/* HEADER ///////////////////////////////////////////////////////////////////////////////////////*/
+
+.header {
+    margin-left:-12px;
+	height: 100%;
+	position: fixed;
+	width: 15%;
+	z-index: 601;
+}
+@media (max-width: 767px) {
+.header {
+	width: 100%;
+	height:140px;
+	background: #ffffff;
+}
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+.header {
+	width: 100%;
+	height: 113px;
+	-moz-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+}
+.header_box {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background:#ffffff;
+	-moz-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.1);
+}
+/*ie8*/
+.header {
+	border-bottom: 1px solid #dadada\9;
+}
+/*ie9*/
+.header:not(:target) {
+	border-bottom: none\9;
+}
+/*ie10*/
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+.header {
+	border-bottom: none;
+}
+}
+}
+/*@media (min-width: 1228px) and (max-width: 1400px) { */
+@media (min-width: 1025px) and (max-width: 1400px) {
+/* line 43, ../../app/styles/layouts/_header.scss */
+.header {
+	width: 15%;
+}
+/*ie8*/
+.header {
+	background: #fff url(/components/images/border.gif) right top repeat-y;
+}
+/*ie9*/
+.header:not(:target) {
+	background-image: none\9;
+}
+  /*ie10*/
+ @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+ .header {
+ background-image: none;
+}
+}
+}
+@media (min-width: 1401px) {
+/* line 50, ../../app/styles/layouts/_header.scss */
+.header {
+	width: 15%;
+}
+/*ie8*/
+.header {
+	background: #fff url(/components/images/border.gif) right top repeat-y\9 !important;
+}
+/*ie9*/
+.header:not(:target) {
+	background-image: none\9;
+}
+/*ie10*/
+ @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+ .header {
+ background-image: none;
+}
+}
+}
+/*@media (min-width: 2000px) { */
+@media (min-width: 1800px) {
+/* line 57, ../../app/styles/layouts/_header.scss */
+.header {
+	/* width: 200px; */
+    width: 216px;
+}
+/*ie8*/
+.header {
+	background: #fff url(/components/images/border.gif) right top repeat-y\9 !important;
+}
+/*ie9*/
+.header:not(:target) {
+	background-image: none\9;
+}
+  /*ie10*/
+ @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+ .header {
+ background-image: none;
+}
+}
+}
+/* LOGO ///////////////////////////////////////////////////////////////////////////////////////*/
+
+.logo {
+	display: block;
+	margin: 0 auto;
+}
+.logo__img {
+	/*  width: 98%;*/
+	max-width: 200px;
+	margin: 0 auto;
+}
+@media (max-width: 767px) {
+.logo {
+	width: 50%;
+	padding: 10px 0;
+	margin:0;
+}
+.logo__img {
+	display:none;
+}
+
+.logo__img img {
+	display:none;
+}
+.splogo__img {
+	display:block;
+	margin:0 auto;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+.logo {
+	width: 150px;
+	overflow: hidden;
+	margin: 0;
+}
+.logo__img {
+	margin:24px auto 10px auto;
+}
+
+.logo__img img {
+	margin:24px auto 10px auto;
+}
+
+.splogo__img {
+	display:none;
+}
+}
+@media (min-width: 1025px) {
+.logo__img {
+	margin: 15px auto 16px auto;
+}
+
+.logo__img img {
+	margin: 15px auto 16px auto;
+}
+
+.splogo__img {
+	display:none;
+}
+}
+/* NAV ///////////////////////////////////////////////////////////////////////////////////////*/
+
+.nav__link {
+	display: block;
+	text-align: center;
+	padding: 12px 0;
+	color: #6c6e72;
+	font-family: toyotaDisplay, Verdana, Helvetica, Arial, sans-serif;
+	line-height: 1.3;
+}
+.nav__sub__link {
+	font-family: toyotaDisplay, Verdana, Helvetica, Arial, sans-serif;
+	cursor:pointer;
+}
+@media (min-width: 1025px) and (max-height: 680px) {
+.nav__link {
+	padding: 10px 0;
+}
+}
+
+
+@media (max-width: 767px) {
+/* line 19, ../../app/styles/modules/_nav.scss */
+.nav-wrapper {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top:140px;
+	text-align:center;
+}
+.nav-wrapper.is-nav-expanded {
+	height:450px;
+	border-bottom: 1px solid #cecece;
+}
+/* line 29, ../../app/styles/modules/_nav.scss */
+.nav {
+	display:none;
+}
+.is-nav-expanded .nav {
+	margin:0;
+	padding:0;
+	display:block;
+}
+.nav-scroll {
+	margin:0;
+	padding:0;
+	background: #ebebeb;
+}
+
+.is-nav-expanded .nav-scroll {
+	overflow-y:scroll;
+	overflow-x:hidden;
+	-webkit-overflow-scrolling: touch;
+}
+.is-nav-expanded.is-subnav-active .nav-scroll,
+.is-nav-expanded.is-subnav-active .nav-scroll .nav {
+	height:100%;
+}
+
+
+/* line 33, ../../app/styles/modules/_nav.scss */
+.nav.is-subnav-active {
+	padding-top: 58px;
+}
+/* line 37, ../../app/styles/modules/_nav.scss */
+.nav:before {
+	display: none;
+}
+/* line 40, ../../app/styles/modules/_nav.scss */
+.nav__link {
+	display: block;
+	padding:20px;
+	font-size: 22px;
+	position: relative;
+	color: #737373;
+}
+.nav__link.is-active {
+	background: #eb0a1e;
+	color: #fff;
+}
+/* line 45, ../../app/styles/modules/_nav.scss */
+.nav__link:before {
+	content: ' ';
+	display: block;
+	height: 1px;
+	background: #aaaaaa;
+	position: absolute;
+	top: 0;
+	width: 44px;
+	left: 50%;
+	margin-left: -22px;
+}
+/* line 57, ../../app/styles/modules/_nav.scss */
+.nav > li:first-child .nav__link:before {
+	display: none;
+}
+/* line 60, ../../app/styles/modules/_nav.scss */
+.nav__sub {
+	display: none;
+	background: #eb0a1e;
+	min-height:660px;
+}
+/* line 69, ../../app/styles/modules/_nav.scss */
+.nav__sub__link {
+	display: block;
+	text-align: center;
+	color: white;
+	font-size: 22px;
+	padding: 13px 20px;
+	position: relative;
+}
+.nav__sub__list.others {
+	border-top:1px solid #ffffff;
+}
+
+/* line 76, ../../app/styles/modules/_nav.scss */
+.nav__sub__link:before {
+	content: ' ';
+	display: block;
+	height: 1px;
+	background: #ffffff;
+	position: absolute;
+	top: 0;
+	width: 44px;
+	left: 50%;
+	margin-left: -22px;
+}
+.nav__sub__list > li:first-child .nav__sub__link:before {
+	display: none;
+}
+
+
+/* line 87, ../../app/styles/modules/_nav.scss */
+.nav__sub__link:active {
+	background: #af0111;
+}
+/* line 89, ../../app/styles/modules/_nav.scss */
+.nav__sub__link:active:before {
+	display: none;
+}
+/* line 94, ../../app/styles/modules/_nav.scss */
+.nav__sub > li:first-child .nav__sub__link:before {
+	display: none;
+}
+/* line 97, ../../app/styles/modules/_nav.scss */
+.icon--sub-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	pointer-events: none;
+}
+/* line 104, ../../app/styles/modules/_nav.scss */
+.is-nav-active {
+	height:450px;
+	z-index: 10;
+	position: absolute;
+	top: 1px;
+	left: 0;
+	right: 0;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	-webkit-overflow-scrolling: touch;
+}
+.is-nav-active.is_nav_modeles{
+	overflow-y:hidden;
+}
+
+/* line 110, ../../app/styles/modules/_nav.scss */
+.is-nav-active > .nav__link {
+	background: #eb0a1e;
+	color: white;
+	border-bottom:#ffffff solid 1px;
+}
+/* line 119, ../../app/styles/modules/_nav.scss */
+.is-nav-active > .nav__link:before {
+	display: none;
+}
+/* line 123, ../../app/styles/modules/_nav.scss */
+.is-nav-active .nav__sub {
+	display: block;
+}
+/* line 128, ../../app/styles/modules/_nav.scss */
+.is-nav-active .icon--sub-close {
+	display: block;
+	top: 18px;
+	right:15px;
+}
+
+/*sub navi*/
+.is-sub-nav-active {
+	z-index: 10;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background:url(/tsb_images/icon_arrow.png) 18px 20px no-repeat #fff;
+}
+.is-sub-nav-active > .nav__sub__link {
+	color: #737373;
+	padding:16px 0;
+}
+.is-sub-nav-active > .nav__sub__link:before {
+	display: none;
+}
+.is-sub-nav-active .nav__sub__modeles {
+	display: block;
+}
+.is-sub-nav-active .sub-close {
+	width:20px;
+	height:20px;
+	position: absolute;
+	pointer-events: none;
+	display: block;
+	top: 18px;
+	right:15px;
+	background:url(/tsb_images/btn_close_dark.png) 50% 50% no-repeat;
+}
+
+/* nav__modeles */
+#nav__modeles{
+	display:none;
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:680px;
+	margin:0;
+	padding-top:50px;
+}
+
+#nav__modeles ul li a {
+	display: block;
+	text-align: center;
+	font-size: 17px;
+	padding: 13px 20px;
+	position: relative;
+}
+#nav__modeles ul li a:before {
+	content: ' ';
+	display: block;
+	height: 1px;
+	background: #aaaaaa;
+	position: absolute;
+	top: 0;
+	width: 44px;
+	left: 50%;
+	margin-left: -22px;
+}
+
+#scroll_box{
+	position:relative;
+	height:400px;
+	background-color:#FFF;
+	overflow: hidden;
+}
+
+/* nav__sub__modeles */
+.nav__sub__modeles {
+	display:none;
+	position:absolute;
+	left:0px;
+	top:68px;
+	width:100%;
+	height:auto;
+	background-color:#FFF;
+	border-top:1px solid #aaaaaa;
+	border-bottom:1px solid #aaaaaa;
+	min-height:660px;
+}
+.nav__sub__modeles ul li a {
+	display: block;
+	text-align: center;
+	font-size: 22px;
+	padding: 13px 20px;
+	position: relative;
+	color:#737373;
+}
+.nav__sub__modeles ul li a:hover {
+	color:#ffffff;
+	background:#737373;
+}
+.nav__sub__modeles ul li a:before {
+	content: ' ';
+	display: block;
+	height: 1px;
+	background: #aaaaaa;
+	position: absolute;
+	top: 0;
+	width: 44px;
+	left: 50%;
+	margin-left: -22px;
+}
+.nav__sub__modeles ul li:first-child a:before {
+	display: none;
+}
+.no-touch .nav__sub__list li:hover {
+	background-color:#fff;
+}
+.no-touch .nav__sub__list li:hover a{
+	color:#eb0a1e;
+	background:#fff;
+}
+.no-touch .nav__sub__list li.is-sub-nav-active a:hover {
+	background-color:none;
+}
+.no-touch .nav__sub__list li.is-sub-nav-active a {
+	color:#737373;
+	background:none;
+}
+.no-touch .nav__sub__list li.is-sub-nav-active li a:hover {
+	background:#d7d7d7;
+}
+
+#nav__modeles.toyota_models .row a {
+	float: left;
+}
+
+#nav__modeles .sub-close {
+	position:absolute;
+	top: 18px;
+	right:15px;
+	width:20px;
+	height:20px;
+	background:url(/tsb_images/btn_close_dark.png) 50% 50% no-repeat;
+	cursor:pointer;
+}
+
+
+}
+/*@media (min-width: 1025px) and (max-width: 1227px) { */
+@media (min-width: 768px) and (max-width: 1024px) {
+/* line 142, ../../app/styles/modules/_nav.scss */
+.nav {
+	/* margin-bottom: 1px; */
+    position: relative;
+}
+/* line 145, ../../app/styles/modules/_nav.scss */
+.nav > li {
+	float: left;
+}
+/* line 149, ../../app/styles/modules/_nav.scss */
+.nav__sub {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	right: 0;
+	background: #ec0f22;
+	box-shadow:rgba(0, 0, 0, 0.2) 0px 3px 5px 0px;
+	-webkit-box-shadow:rgba(0, 0, 0, 0.2) 0px 3px 5px 0px;
+	-moz-box-shadow:rgba(0, 0, 0, 0.2) 0px 3px 5px 0px;
+}
+.nav__sub:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height:10px;
+	box-shadow: inset rgba(0, 0, 0, 0.2) 0px 3px 5px 0px;
+	-webkit-box-shadow: inset rgba(0, 0, 0, 0.2) 0px 3px 5px 0px;
+	-moz-box-shadow: inset rgba(0, 0, 0, 0.2) 0px 3px 5px 0px;
+}
+
+/* line 159, ../../app/styles/modules/_nav.scss */
+.nav__sub__list {
+	display: block;
+	padding: 7px;
+	font-size: 0;
+}
+.nav__sub__list.others {
+	margin:0 10px 10px 10px;
+	padding:10px 0 0 0;
+	border-top:1px solid #ffffff;
+}
+
+.nav__sub__list *{
+	font-size:13px;
+}
+/* line 163, ../../app/styles/modules/_nav.scss */
+.nav__sub__list > li {
+	display: inline-block;
+	width: 25%;
+	vertical-align: top;
+	text-align:center;
+}
+/* line 169, ../../app/styles/modules/_nav.scss */
+.nav__sub__link {
+	color: #fff;
+	display: block;
+	padding: 7px 10px;
+	line-height: 1.5;
+	font-size: 14px;
+}
+/* line 175, ../../app/styles/modules/_nav.scss */
+.nav__sub__link:hover {
+	background:#fff;
+	color:#ce0d1e;
+}
+/* line 179, ../../app/styles/modules/_nav.scss */
+.nav__link {
+	padding: 6px 12px 6px 12px;
+	font-size: 13px;
+}
+/* line 182, ../../app/styles/modules/_nav.scss */
+.nav__link.is-active {
+	background: #eb0a1e;
+	color: #fff;
+}
+/* line 188, ../../app/styles/modules/_nav.scss */
+.touch .is-nav-active .nav__link {
+	background: #eb0a1e;
+	color: #fff;
+}
+/* line 192, ../../app/styles/modules/_nav.scss */
+.touch .is-nav-active .nav__sub {
+	display: block;
+}
+/* line 196, ../../app/styles/modules/_nav.scss */
+.no-touch .nav > li:hover .nav__link {
+	background: #eb0a1e;
+	color: #fff;
+}
+/* line 200, ../../app/styles/modules/_nav.scss */
+.no-touch .nav > li:hover .nav__sub {
+	display: block;
+}
+/* line 205, ../../app/styles/modules/_nav.scss */
+.lang-jp .nav > li:first-child {
+	margin-left: 9px;
+}
+/* line 209, ../../app/styles/modules/_nav.scss */
+.lang-jp .nav__link {
+	padding: 6px 15px;
+}
+
+/* nav__modeles */
+#nav__modeles{
+	margin:0;
+	padding:0;
+	display:none;
+	position:absolute;
+	left:0;
+	top:100%;
+	width:100%;
+	height:350px;
+	background-color:#FFF;
+	box-shadow:rgba(0, 0, 0, 0.298039) 0px 3px 5px 0px;
+	-webkit-box-shadow:rgba(0, 0, 0, 0.298039) 0px 3px 5px 0px;
+	-moz-box-shadow:rgba(0, 0, 0, 0.298039) 0px 3px 5px 0px;
+	z-index:-1;
+}
+#nav__modeles ul {
+	padding:0 10px;
+	text-align:left;
+}
+#nav__modeles ul li {
+	display: inline-block;
+	width: 24%;
+}
+#nav__modeles ul li a {
+	display: block;
+	margin:0;
+	padding:10px 0;
+}
+
+#scroll_box{
+	position:relative;
+	height:350px;
+	overflow: hidden;
+}
+
+/* nav__sub__modeles */
+.nav__sub__modeles {
+	display:none;
+	position:absolute;
+	left:0;
+	top:100%;
+	width:100%;
+	height:auto;
+	background-color:#FFF;
+	box-shadow:rgba(0, 0, 0, 0.298039) 0px 3px 5px 0px;
+	-webkit-box-shadow:rgba(0, 0, 0, 0.298039) 0px 3px 5px 0px;
+	-moz-box-shadow:rgba(0, 0, 0, 0.298039) 0px 3px 5px 0px;
+	z-index:-1;
+}
+.nav__sub__modeles ul {
+	padding:0 20px;
+	text-align:left;
+}
+.nav__sub__modeles ul li {
+	display: inline-block;
+	width: 24%;
+}
+.nav__sub__modeles ul li a {
+	display: block;
+	margin:0;
+	padding:12px 0;
+}
+
+
+}
+@media (min-width: 1025px) {
+.nav {
+	padding:0;
+}
+.nav__link {
+	font-size: 13px;
+}
+.lang-jp .nav__link {
+	padding:10px 0;
+}
+.nav__link.is-active {
+	background: #eb0a1e;
+	color: #fff;
+}
+/* line 240, ../../app/styles/modules/_nav.scss */
+.touch .is-nav-active .nav__link {
+	background: #eb0a1e;
+	color: white;
+	border: solid 1px;
+}
+/* line 243, ../../app/styles/modules/_nav.scss */
+.touch .is-nav-active .nav__link:before {
+	display: none;
+}
+/* line 247, ../../app/styles/modules/_nav.scss */
+.touch .is-nav-active .nav__sub {
+	display: block;
+}
+/* line 252, ../../app/styles/modules/_nav.scss */
+.no-touch .nav > li:hover .nav__link {
+	background: #eb0a1e;
+	color: white;
+}
+/* line 255, ../../app/styles/modules/_nav.scss */
+.no-touch .nav > li:hover .nav__link:before {
+	display: none;
+}
+/* line 259, ../../app/styles/modules/_nav.scss */
+.no-touch .nav > li:hover .nav__sub {
+	display: block;
+}
+/* line 263, ../../app/styles/modules/_nav.scss */
+.nav__sub:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 10px;
+	box-shadow: inset 6px 0 14px -4px rgba(0, 0, 0, 0.2);
+}
+.nav__sub__list {
+	padding:90px 0 0 0;
+}
+.nav__sub__list.others {
+	padding:0;
+	border-top:1px solid #ffffff;
+	border-bottom:1px solid #ffffff;
+}
+
+/* line 273, ../../app/styles/modules/_nav.scss */
+.nav__sub__link {
+	color: white;
+	font-size: 14px;
+	padding: 13px 0 12px 0;
+	text-align: center;
+	display: block;
+	font-size: 13px;
+	line-height: 1.2;
+}
+/* line 281, ../../app/styles/modules/_nav.scss */
+.nav__sub__link:hover {
+	background-color:#fff;
+	color:#eb0a1e;
+}
+/* line 285, ../../app/styles/modules/_nav.scss */
+.nav__sub {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 100%;
+	background: #df0a1c;
+	display: none;
+	width: 200px;
+	/* box-shadow */
+	box-shadow:rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+	-webkit-box-shadow:rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+	-moz-box-shadow:rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+}
+
+/* line 304, ../../app/styles/modules/_nav.scss */
+.icon--sub-close {
+	display: none;
+}
+
+/* nav__modeles */
+#nav__modeles{
+	display:none;
+	position:absolute;
+	left:100%;
+	top:0;
+	width:300%;
+	height:100%;
+	background-color:#FFF;
+	/* box-shadow */
+	box-shadow:rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+	-webkit-box-shadow:rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+	-moz-box-shadow:rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+}
+
+#scroll_box{
+	position:relative;
+	height:100%;
+	overflow: hidden;
+}
+
+/* nav__sub__modeles */
+.nav__sub__modeles {
+	display:none;
+	position:absolute;
+	left:100%;
+	top:0;
+	width:225px;
+	height:100%;
+	background-color:#FFF;
+	text-align:center;
+	/* box-shadow */
+	box-shadow:rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+	-webkit-box-shadow:rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+	-moz-box-shadow:rgba(0, 0, 0, 0.2) 5px 3px 14px -3px;
+	z-index:-1;
+}
+.nav__sub__modeles ul {
+	padding:90px 0 0 0;
+}
+
+.no-touch .nav__sub__list > li:hover {
+	background-color:#fff;
+}
+.no-touch .nav__sub__list > li:hover a{
+	color:#737373;
+}
+.no-touch .open_toyota_models:hover #nav__modeles{
+	display: block;
+}
+
+.no-touch .nav__sub__modeles li a {
+	display:block;
+	padding:10px 0 9px 0;
+}
+.no-touch .nav__sub__modeles li a:hover {
+	background:#d7d7d7;
+	color:#737373;
+}
+
+}
+/*@media (min-width: 1228px) and (max-height: 680px) { */
+@media (min-width: 1025px) and (max-height: 680px) {
+/* line 285, ../../app/styles/modules/_nav.scss */
+.nav__sub__link {
+	padding: 10px 0 11px 0;
+}
+.no-touch .nav__sub__modeles li a {
+	padding: 7px 0;
+}
+
+}
+/* FOOTER ///////////////////////////////////////////////////////////////////////////////////////*/
+
+/* line 4, ../../app/styles/modules/_footer.scss */
+.footer__primary {
+	background: #ededed;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #d4d4d4;
+	padding: 50px 0 30px 0;
+}
+
+.footer__social {
+	border-bottom: 1px solid #d4d4d4;
+	padding: 30px 0;
+}
+
+
+/* Facebook Like Box width: 100% */
+.footer__social .fbcomments,
+.footer__social .fb_iframe_widget,
+.footer__social .fb_iframe_widget[style],
+.footer__social .fb_iframe_widget iframe[style],
+.footer__social .fbcomments iframe[style],
+.footer__social .fb_iframe_widget span{
+	width: 100% !important;
+}
+.footer__social .footer__tw {
+	height:571px !important;
+}
+.footer__social .footer__tw iframe{
+	height:571px !important;
+}
+.footer__social .footer__tw iframe#twitter-widget-0 {
+	width: 100% !important;
+}
+@media only screen and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+.footer__social .footer__tw iframe#twitter-widget-0 {
+	width: 538px !important;
+}
+}
+@media only screen and (min-device-width: 480px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+.footer__social .footer__tw iframe#twitter-widget-0 {
+	width: 290px !important;
+}
+}
+.footer__social .footer__tw .stream {
+	height:571px !important;
+}
+
+/* line 10, ../../app/styles/modules/_footer.scss */
+.footer__secondary {
+    background:white;
+	padding: 6px 0;
+	font-size: 12px;
+}
+/* line 14, ../../app/styles/modules/_footer.scss */
+.footer__copyright {
+	color: gray;
+}
+@media (max-width: 480px) {
+/* line 20, ../../app/styles/modules/_footer.scss */
+.footer__primary {
+	padding: 25px 0 0 0;
+}
+/* line 23, ../../app/styles/modules/_footer.scss */
+.footer__copyright {
+	width: auto;
+	text-align: center;
+	padding: 20px;
+}
+/* line 28, ../../app/styles/modules/_footer.scss */
+.footer__secondary {
+	padding: 0;
+}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+/* line 35, ../../app/styles/modules/_footer.scss */
+.footer__copyright {
+	width: 100%;
+	text-align: center;
+}
+/* line 39, ../../app/styles/modules/_footer.scss */
+.footer__secondary {
+	padding: 0 0 23px 0;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+/* line 46, ../../app/styles/modules/_footer.scss */
+.footer__copyright {
+	width: 100%;
+	text-align: center;
+}
+/* line 50, ../../app/styles/modules/_footer.scss */
+.footer__secondary {
+	padding: 0 0 23px 0;
+}
+}
+@media (min-width: 1025px) {
+/* line 57, ../../app/styles/modules/_footer.scss */
+.footer__copyright {
+	float: left;
+	padding: 10px 0 10px 30px;
+}
+}
+/* ICON ///////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* line 1, ../../app/styles/modules/_icon.scss */
+.icon {
+	background-repeat: no-repeat;
+	background-image: url(/content/dam/toyota-bharat/fixed-header/4c81bb2d.icons@x1.png);
+	display: inline-block;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3 / 2), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* line 10, ../../app/styles/modules/_icon.scss */
+.icon {
+ background-image: url(/content/dam/toyota-bharat/fixed-header/4c81bb2d.icons@x1.png);
+ -moz-background-size: 250px auto;
+ -o-background-size: 250px auto;
+ -webkit-background-size: 250px auto;
+ background-size: 250px auto;
+}
+}
+/* line 15, ../../app/styles/modules/_icon.scss */
+.icon--search {
+	background-position: 0 0;
+	width: 19px;
+	height: 19px;
+}
+/* line 20, ../../app/styles/modules/_icon.scss */
+.icon--search-large {
+	background-position: 0 -126px;
+	width: 42px;
+	height: 42px;
+}
+/* line 25, ../../app/styles/modules/_icon.scss */
+.icon--search-close {
+	background-position: 0 -188px;
+	width: 42px;
+	height: 42px;
+}
+/* line 30, ../../app/styles/modules/_icon.scss */
+.icon--jp {
+	background-position: 0 -19px;
+	width: 91px;
+	height: 19px;
+	margin-top: 4px !important;
+}
+/* line 35, ../../app/styles/modules/_icon.scss */
+.icon--region {
+	background-position: 0 -38px;
+	width: 21px;
+	height: 23px;
+}
+/* line 40, ../../app/styles/modules/_icon.scss */
+.icon--sandwitch {
+	background-position: 0 -73px;
+	width: 22px;
+	height: 17px;
+	display: block;
+	margin: 14px auto;
+}
+.is-expanded .icon--sandwitch {
+	background-image: url(/tsb_images/btn_close_dark.png);
+	-moz-background-size: auto auto;
+	-o-background-size: auto auto;
+	-webkit-background-size: auto auto;
+	background-size: auto auto;
+	background-position: 0 0;
+	width: 20px;
+	height: 20px;
+}
+/* line 47, ../../app/styles/modules/_icon.scss */
+.icon--sub-close {
+	background-position: 0 -100px;
+	width: 20px;
+	height: 20px;
+	display: none;
+}
+/* line 53, ../../app/styles/modules/_icon.scss */
+.icon--fb {
+	background-position: 0 -226px;
+}
+/* line 56, ../../app/styles/modules/_icon.scss */
+.icon--gp {
+	background-position: 0 -254px;
+}
+/* line 59, ../../app/styles/modules/_icon.scss */
+.icon--tw {
+	background-position: 0 -282px;
+}
+/* line 62, ../../app/styles/modules/_icon.scss */
+.icon--arrow {
+	position: absolute;
+	top: 21px;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 4px 0 4px 4px;
+	border-color: transparent transparent transparent #6c6e72;
+}
+/* SUB NAVI ///////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* line 1, ../../app/styles/modules/_subnav.scss */
+.subnav__link {
+	font-size: 13px;
+	font-family: toyotaDisplay, Verdana, Helvetica, Arial, sans-serif;
+	color: #6c6e72;
+	text-align: center;
+}
+.subnav__link:hover {
+	/* filter:alpha(opacity=70); */
+	-moz-opacity:0.7;
+	opacity:0.7;
+}
+@media (max-width: 767px) {
+.subnav {
+	overflow: hidden;
+	display:none;
+	background: #ffffff;
+	border-top:1px solid #d9d9d9;
+	border-bottom:1px solid #d9d9d9;
+}
+.subnav > li {
+	width:50%;
+	margin:10px 0;
+	float: left;
+}
+
+.is-nav-expanded .subnav {
+	display:block;
+}
+.is-subnav-active .subnav {
+	display:none;
+}
+.subnav__link:before {
+	display: none;
+}
+.subnav__link--search {
+	display:block;
+	width: 100%;
+	padding: 3px 0 0 0;
+	border-right:1px solid #d9d9d9;
+}
+.subnav__link--region {
+	display:block;
+	padding: 3px 0 0 0;
+	line-height: 23px;
+}
+.subnav__link--region > .icon--region {
+	padding: 0 10px 0 0 ;
+	vertical-align: middle;
+}
+.subnav__link--global {
+	padding: 0;
+	border: solid 1px;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+/* line 42, ../../app/styles/modules/_subnav.scss */
+.subnav {
+	position: absolute;
+	bottom: 25px;
+	right: 35px;
+}
+/* line 46, ../../app/styles/modules/_subnav.scss */
+.subnav > li {
+	float: left;
+}
+/* line 50, ../../app/styles/modules/_subnav.scss */
+.subnav__link {
+	display: block;
+	border-left: 1px solid #ccc;
+	padding: 3px 0 3px 15px;
+}
+/* line 55, ../../app/styles/modules/_subnav.scss */
+.subnav__link--region > .subnav__copy {
+	display: none;
+}
+/* line 58, ../../app/styles/modules/_subnav.scss */
+.subnav__link--search {
+	position: absolute;
+	right: 0;
+	bottom: 50px;
+	height: 20px;
+}
+/* line 76, ../../app/styles/modules/_subnav.scss */
+.subnav__link--region {
+	position: absolute;
+	right: -2px;
+	height: 20px;
+	bottom: 12px;
+}
+/* line 85, ../../app/styles/modules/_subnav.scss */
+.subnav__link--global {
+	position: absolute;
+	right: 77px;
+	width: 85px;
+	height: 22px;
+	bottom: 0;
+}
+/* line 91, ../../app/styles/modules/_subnav.scss */
+.subnav__link--global > .subnav__copy {
+	display: block;
+}
+}
+@media (min-width: 1025px) {
+/* line 100, ../../app/styles/modules/_subnav.scss */
+.subnav__link {
+	display: block;
+	padding: 10px 0;
+}
+/* line 109, ../../app/styles/modules/_subnav.scss */
+.subnav__link:before {
+	content: ' ';
+	display: block;
+	height: 1px;
+	background: #cccccc;
+	position: absolute;
+	left: 30px;
+	right: 30px;
+	margin-top: -10px;
+}
+/* line 124, ../../app/styles/modules/_subnav.scss */
+.subnav__icon {
+	display: block;
+	margin: 0 auto;
+}
+/* line 128, ../../app/styles/modules/_subnav.scss */
+.subnav__link--region {
+	padding: 10px 0;
+}
+/* line 131, ../../app/styles/modules/_subnav.scss */
+.subnav__link--region:before {
+	margin-top: -10px;
+}
+/* line 137, ../../app/styles/modules/_subnav.scss */
+.is-search-active {
+	background: #eb0a1e;
+}
+/* line 139, ../../app/styles/modules/_subnav.scss */
+.is-search-active:before {
+	display: none;
+}
+
+.subnav__link--region .subnav__copy {
+	display:block;
+	padding:0 0 0 25px;
+}
+.subnav__link--region .subnav__copy:after {
+	content: ' ';
+	display: block;
+	height: 1px;
+	background: #cccccc;
+	position: absolute;
+	left: 30px;
+	right: 30px;
+	margin-top: 10px;
+}
+.subnav__link--region > .icon--region {
+	position:absolute;
+	left:50%;
+	margin-left:-57px;
+}
+
+
+}
+/*@media (min-width: 1228px) and (max-height: 680px) { */
+@media (min-width: 1025px) and (max-height: 680px) {
+/* line 100, ../../app/styles/modules/_subnav.scss */
+.subnav__link {
+	padding: 10px 0;
+}
+}
+/*@media (min-width: 1228px) and (max-height: 680px) { */
+@media (min-width: 1025px) and (max-height: 680px) {
+/* line 109, ../../app/styles/modules/_subnav.scss */
+.subnav__link:before {
+	margin-top: -10px;
+}
+}
+
+/*@media (min-width: 1228px) { */
+@media (min-width: 1025px) {
+/* line 150, ../../app/styles/modules/_subnav.scss */
+.is-search-active .icon--search {
+	background-position: -19px 0;
+}
+}
+/* mobile-nav-but */
+.mobile-nav-but {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 15%;
+	height:60px;
+	padding:10px 0 0 0;
+	border-left:1px solid #737373;
+}
+@media (min-width: 768px) {
+.mobile-nav-but {
+	display: none;
+}
+}
+/* SEARCH ///////////////////////////////////////////////////////////////////////////////////////*/
+
+.search {
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 500;
+	border-left: 2px solid #eb0a1e;
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.search.is-search-expanded {
+	display: block;
+}
+.search__overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: #000;
+	z-index: 30;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+	opacity: 0.8;
+}
+.search__form {
+	position: relative;
+	z-index: 400;
+	padding: 236px 48px 0 48px;
+}
+.search__wrap {
+	margin: 30px 0 0 0;
+	position: relative;
+}
+.search__label {
+	color: #fff;
+	font-size: 26px;
+	font-family: toyotaDisplay, Verdana, Helvetica, Arial, sans-serif;
+	letter-spacing: -0.08em;
+	display: block;
+	padding-bottom: 14px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+.search__input {
+	background: transparent;
+	border: none;
+	color: #fff;
+	font-family: toyotaDisplay, Verdana, Helvetica, Arial, sans-serif;
+	font-size: 65px;
+	padding: 0;
+	line-height: 1;
+	font-weight: normal;
+	letter-spacing: -0.08em;
+	width: 80%;
+}
+.search__submit {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	background: transparent;
+	border: none;
+	color: #fff;
+	font-family: toyotaDisplay, Verdana, Helvetica, Arial, sans-serif;
+	padding: 0;
+	font-size: 30px;
+	position: absolute;
+	top: 18px;
+	right: 5px;
+	outline: none;
+	cursor: pointer;
+	filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+	opacity: 0.5;
+}
+.search__close {
+	position: absolute;
+	top: 34px;
+	right: 47px;
+	display: block;
+	z-index: 450;
+	color: #fff;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+.search__close {
+	-moz-transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	-o-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+	top: 12px;
+	right: 13px;
+}
+
+/*@media (max-width: 768px) { */
+@media (max-width: 767px) {
+/* line 84, ../../app/styles/modules/_search.scss */
+.search {
+	border-left: none;
+}
+/* line 87, ../../app/styles/modules/_search.scss */
+.search__form {
+	padding: 22px;
+}
+/* line 90, ../../app/styles/modules/_search.scss */
+.search__label {
+	font-size: 16px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+/* line 95, ../../app/styles/modules/_search.scss */
+.search__close {
+	-moz-transform: scale(0.5);
+	-ms-transform: scale(0.5);
+	-o-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+	top: 12px;
+	right: 13px;
+}
+/* line 100, ../../app/styles/modules/_search.scss */
+.search__overlay {
+	opacity: 1;
+}
+/* line 103, ../../app/styles/modules/_search.scss */
+.search__icon {
+	display: none;
+}
+/* line 106, ../../app/styles/modules/_search.scss */
+.search__submit {
+	display: none;
+}
+/* line 109, ../../app/styles/modules/_search.scss */
+.search__input {
+	width: 100%;
+	font-size: 33px;
+}
+/* line 113, ../../app/styles/modules/_search.scss */
+.search__wrap {
+	margin-top: 15px;
+}
+}
+/*@media (min-width: 768px) { */
+@media (min-width: 767px) {
+/* line 121, ../../app/styles/modules/_search.scss */
+.touch .search__form {
+	padding-top: 50px;
+}
+/* line 124, ../../app/styles/modules/_search.scss */
+.touch .search__submit {
+	display: none;
+}
+}
+/* mobile-search-but??? */
+/* line 1, ../../app/styles/modules/_mobile-search-but.scss */
+.mobile-search-but {
+	display: none;
+}
+/* line 3, ../../app/styles/modules/_mobile-search-but.scss */
+.mobile-search-but > .icon--search {
+	margin: 13px auto;
+	display: block;
+}
+/* line 7, ../../app/styles/modules/_mobile-search-but.scss */
+.mobile-search-but.is-search-active {
+	background: none;
+}
+
+/*@media (max-width: 1024px) { */
+@media (max-width: 767px) {
+/* line 14, ../../app/styles/modules/_mobile-search-but.scss */
+.mobile-search-but {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50px;
+	height: 45px;
+}
+}
+/*@media (min-width: 481px) and (max-width: 1024px) { */
+@media (min-width: 481px) and (max-width: 767px) {
+/* line 26, ../../app/styles/modules/_mobile-search-but.scss */
+.mobile-search-but {
+	top: 11px;
+	right: 11px;
+}
+}
+@media (min-width: 1025px) {
+/* line 34, ../../app/styles/modules/_mobile-search-but.scss */
+.mobile-search-but {
+	display: none;
+}
+}
+/* NAV2 ///////////////////////////////////////////////////////////////////////////////////////*/
+
+.nav2 {
+	width:100%;
+	position:absolute;
+	top:-70px;
+	left:0;
+}
+.nav2 li {
+}
+.nav2 li a {
+	display:block;
+	text-align:center;
+	margin:0 0 0 -1px;
+	padding:40px 0 0 0;
+	font-size:14px;
+	color:#fff;
+	width:20%;
+	height:30px;
+	text-shadow: 0px 1px 1px #333333;
+}
+.nav2 li a.findadealer {
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_find_a_dealer_pc.png) 12% 15px no-repeat;
+	border-left:1px solid #737373;
+	position:absolute;
+	top:-70px;
+	right:15%;
+	width:35%;
+	height:48px;
+	padding:22px 0 0 0;
+	color:#737373;
+	text-shadow:none;
+	text-indent:35px;
+}
+.nav2 li a.testdrive {
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_testdrive_pc.png) 50% 14px no-repeat #aaaaaa;
+	position:absolute;
+	top:0;
+	left:0;
+}
+.nav2 li a.brochure {
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_brochure_pc.png) 50% 17px no-repeat #aaaaaa;
+	border-left:1px solid #ffffff;
+	position:absolute;
+	top:0;
+	left:60%;
+}
+.nav2 li a.exchange {
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_exchange_pc.png) 50% 17px no-repeat #aaaaaa;
+	border-left:1px solid #ffffff;
+	position:absolute;
+	top:0;
+	right:0;
+}
+.nav2 li a.quote {
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_quote_pc.png) 50% 15px no-repeat #aaaaaa;
+	border-left:1px solid #ffffff;
+	position:absolute;
+	top:0;
+	left:20%;
+}
+.nav2 li a.bookaservice {
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_buynow_pc.png) 50% 12px no-repeat #aaaaaa;
+	border-left:1px solid #ffffff;
+	position:absolute;
+	top:0;
+	left:40%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.nav2 {
+	top:auto;
+	bottom:0;
+}
+.nav2 li a {
+	margin:0;
+	padding:0;
+	font-size:14px;
+	width:110px;
+	height:26px;
+}
+.nav2 li a.findadealer {
+	width:160px;
+	height:auto;
+	padding:0;
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_find_a_dealer_pc.png) 15px 4px no-repeat #737373;
+	border-left:none;
+	top:auto;
+	bottom:38px;
+	right: 183px;
+	color:#ffffff;
+	text-indent:30px;
+	float:none;
+}
+.nav2 li a.testdrive {
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_testdrive_pc.png) 4px 4px no-repeat #aaaaaa;
+	top:auto;
+	bottom:75px;
+	left:auto;
+	right:514px;
+	text-indent:25px;
+}
+.nav2 li a.brochure {
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_brochure_pc.png) 4px 6px no-repeat #aaaaaa;
+	top:auto;
+	bottom:75px;
+	left:auto;
+	right:181px;
+	text-indent:30px;
+}
+.nav2 li a.exchange {
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_exchange_pc.png) 4px 6px no-repeat #aaaaaa;
+	top:auto;
+	bottom:75px;
+	left:auto;
+	right:70px;
+	text-indent:30px;
+}
+.nav2 li a.quote {
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_quote_pc.png) 4px 4px no-repeat #aaaaaa;
+	top:auto;
+	bottom:75px;
+	left:auto;
+	right:403px;
+	text-indent:20px;
+}
+.nav2 li a.bookaservice {
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_buynow_pc.png) 4px 4px no-repeat #aaaaaa;
+	top:auto;
+	bottom:75px;
+	left:auto;
+	right:292px;
+	text-indent:20px;
+}
+}
+
+@media (min-width: 1025px) {
+.nav2 {
+	position:relative;
+	right:auto;
+	top:auto;
+}
+.nav2 li {
+	float:none;
+}
+.nav2 li a {
+	font-size:inherit;
+	line-height:1em;
+	display:block;
+	width:100%;
+	padding:15px 0 10px 0;
+}
+.nav2 li a.findadealer, .nav2 li a.testdrive, .nav2 li a.brochure , .nav2 li a.exchange ,.nav2 li a.quote ,.nav2 li a.bookaservice {
+	width:100%;
+	height:25px;
+	margin:0;
+	padding:15px 0 0 0;
+	background:none #aaaaaa;
+	border:none;
+	color:#ffffff;
+	text-shadow: 0px 1px 1px #333333;
+	border-bottom:1px solid #fff;
+	text-align:left;
+	text-indent:51px;
+	position:static;
+}
+.nav2 li a.findadealer {
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_find_a_dealer_pc.png) 20px 9px no-repeat #aaaaaa;
+}
+.nav2 li a.testdrive {
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_testdrive_pc.png) 22px 10px no-repeat #aaaaaa;
+}
+.nav2 li a.brochure {
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_brochure_pc.png) 21px 14px no-repeat #aaaaaa;
+}
+.nav2 li a.exchange {
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_exchange_pc.png) 21px 14px no-repeat #aaaaaa;
+}
+.nav2 li a.quote {
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_quote_pc.png) 25px 9px no-repeat #aaaaaa;
+}
+.nav2 li a.bookaservice {
+	background:url(/content/dam/toyota-bharat/fixed-header/icon_buynow_pc.png) 23px 10px no-repeat #aaaaaa;
+}
+.nav2 li a.on,
+.nav2 li a:hover {
+	background-color: #eb0a1e;
+}
+}
+
+
+/* SOCIAL ///////////////////////////////////////////////////////////////////////////////////////*/
+
+.social {
+	padding:15px 25px 20px 25px;
+	display: block;
+	position: relative;
+	text-align: center;
+	background: #ffffff;
+}
+.social ul li {
+	width:25%;
+	float:left;
+	text-align:center;
+}
+.social__link {
+	display:block;
+}
+.social__link:hover {
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	opacity:0.7;
+}
+.social .subnav__copy {
+	font-family: toyotaDisplay, Verdana, Helvetica, Arial, sans-serif;
+}
+.social__img {
+	width:auto;
+	margin:0 auto;
+	height: 25px;
+}
+@media (max-width: 767px) {
+.social {
+	padding:0;
+	display:none;
+}
+.is-nav-expanded .social {
+	display:block;
+	text-align: center;
+}
+.is-subnav-active .social {
+	display:none;
+}
+.social ul {
+	width:40%;
+	margin: 0px auto;
+	/* text-align: center; */
+	margin-left: 35%;
+}
+.social__img {
+	height: 30px;
+	padding:10px 0;
+}
+.social .subnav__copy {
+	display:none;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+.social {
+	position: absolute;
+	bottom: 38px;
+	right: 53px;
+	overflow: hidden;
+	padding:0;
+	width:120px;
+}
+.subnav__copy {
+	display:none;
+}
+}
+
+@media (min-width: 1025px) {
+.social {
+	padding: 12px 0px 10px 32px;
+}
+.subnav__copy {
+	display:none;
+}
+}
+
+/* FOOTER ///////////////////////////////////////////////////////////////////////////////////////*/
+
+
+/* line 1, ../../app/styles/modules/_footer-nav.scss */
+.footer__nav > li {
+	float: left;
+	position: relative;
+}
+/* line 5, ../../app/styles/modules/_footer-nav.scss */
+.footer__nav > li:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 1px;
+	height: 100%;
+	border-right: 1px solid #b2b2b2;
+}
+/* line 16, ../../app/styles/modules/_footer-nav.scss */
+.footer__nav > li:last-child:after {
+	display: none;
+}
+/* line 19, ../../app/styles/modules/_footer-nav.scss */
+.footer__nav__link {
+	display: inline-block;
+	padding: 2px 20px;
+	color: gray;
+	font-weight: bold;
+}
+/* line 24, ../../app/styles/modules/_footer-nav.scss */
+.footer__nav__link:hover {
+	text-decoration: underline;
+}
+@media (max-width: 480px) {
+/* line 31, ../../app/styles/modules/_footer-nav.scss */
+.footer__nav {
+	width: 100%;
+	padding: 0;
+}
+/* line 34, ../../app/styles/modules/_footer-nav.scss */
+.footer__nav > li {
+	width: 100%;
+	float: none;
+}
+/* line 39, ../../app/styles/modules/_footer-nav.scss */
+.footer__nav > li:after {
+	display: none;
+}
+/* line 42, ../../app/styles/modules/_footer-nav.scss */
+.footer__nav__link {
+	text-align: center;
+	display: block;
+	padding: 15px 0;
+	border-bottom: 1px solid #d4d4d4;
+}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+/* line 52, ../../app/styles/modules/_footer-nav.scss */
+.footer__nav {
+	width: 100%;
+	padding: 23px 0;
+	overflow: hidden;
+}
+/* line 56, ../../app/styles/modules/_footer-nav.scss */
+.footer__nav > li {
+	width: 25%;
+}
+/* line 60, ../../app/styles/modules/_footer-nav.scss */
+.footer__nav__link {
+	text-align: center;
+	display: block;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+/* line 68, ../../app/styles/modules/_footer-nav.scss */
+.footer__nav {
+	width: 100%;
+	padding: 23px 0;
+	overflow: hidden;
+}
+/* line 72, ../../app/styles/modules/_footer-nav.scss */
+.footer__nav > li {
+	width: 25%;
+}
+/* line 76, ../../app/styles/modules/_footer-nav.scss */
+.footer__nav__link {
+	text-align: center;
+	display: block;
+}
+}
+@media (min-width: 1025px) {
+/* line 84, ../../app/styles/modules/_footer-nav.scss */
+.footer__nav {
+	float: right;
+	margin: 8px 10px;
+}
+}
+/* line 1, ../../app/styles/modules/_footer-col.scss */
+.footer-col {
+	width: 50%;
+	float: left;
+	position: relative;
+}
+/* line 5, ../../app/styles/modules/_footer-col.scss */
+.footer-col:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 1px;
+	height: 100%;
+	border-right: 1px solid #bcbcbc;
+}
+/* line 17, ../../app/styles/modules/_footer-col.scss */
+.footer__primary > .footer-col:last-child:after {
+	display: none;
+}
+.footer__social > .footer-col:last-child:after {
+	display: none;
+}
+
+/* line 20, ../../app/styles/modules/_footer-col.scss */
+.footer-col-wrap {
+	padding: 0 30px;
+}
+
+/* line 23, ../../app/styles/modules/_footer-col.scss */
+.footer-col__title {
+	color: #000;
+	font-size: 28px;
+	font-weight: normal;
+	font-family: toyotaDisplay, Verdana, Helvetica, Arial, sans-serif;
+	margin-bottom: 14px;
+}
+/* line 31, ../../app/styles/modules/_footer-col.scss */
+.footer-col__link {
+	font-size: 14px;
+	padding: 5px 0;
+	display: block;
+}
+/* line 35, ../../app/styles/modules/_footer-col.scss */
+.footer-col__link:hover {
+	text-decoration: underline;
+}
+/* line 39, ../../app/styles/modules/_footer-col.scss */
+.footer-col__time {
+	color: #A11A1A;
+	min-width: 110px;
+	display: inline-block;
+}
+/* line 44, ../../app/styles/modules/_footer-col.scss */
+.footer-col__copy {
+	color: #818181;
+}
+/* line 47, ../../app/styles/modules/_footer-col.scss */
+.footer-col__but {
+	display: block;
+	font-size: 14px;
+	padding: 10px 0;
+}
+/* line 51, ../../app/styles/modules/_footer-col.scss */
+.footer-col__but:hover {
+	text-decoration: underline;
+}
+/* line 56, ../../app/styles/modules/_footer-col.scss */
+.lang-jp .footer-col__title {
+	font-size: 26px;
+}
+/* line 59, ../../app/styles/modules/_footer-col.scss */
+.lang-jp .footer__whatsnew .footer-col__time {
+	display: none;
+}
+@media (max-width: 480px) {
+/* line 64, ../../app/styles/modules/_footer-col.scss */
+.footer-col-wrap {
+	padding: 0 15px 0 25px;
+}
+/* line 67, ../../app/styles/modules/_footer-col.scss */
+.footer-col {
+	width: 100%;
+	float: none;
+	margin-bottom: 30px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #d4d4d4;
+}
+/* line 73, ../../app/styles/modules/_footer-col.scss */
+.footer-col:after {
+	display: none;
+}
+/* line 77, ../../app/styles/modules/_footer-col.scss */
+.footer__primary > .footer-col:last-child {
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+
+.footer__social > .footer-col:last-child {
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+
+}
+/* line 1, ../../app/styles/modules/_migration__breadcrumbs.scss */
+.breadcrumbs {
+	/* width: 960px; */
+  margin: 15px 0;
+	line-height: 1;
+}
+/* line 4, ../../app/styles/modules/_migration__breadcrumbs.scss */
+.breadcrumbs > li {
+	display: inline-block;
+	font-size: 0;
+	margin-right: 1px;
+	position: relative;
+}
+/* line 9, ../../app/styles/modules/_migration__breadcrumbs.scss */
+.breadcrumbs > li:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	top: 18px;
+	right: -4px;
+	width: 4px;
+	height: 4px;
+	background: #7d7d7d;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+}
+/* line 22, ../../app/styles/modules/_migration__breadcrumbs.scss */
+.breadcrumbs > li:last-child:after {
+	display: none;
+}
+/* line 26, ../../app/styles/modules/_migration__breadcrumbs.scss */
+.breadcrumbs__item {
+	display: block;
+	padding: 15px 21px;
+	color: #7d7d7d;
+	font-size: 13px;
+	font-family: toyotaDisplay, Verdana, Helvetica, Arial, sans-serif;
+}
+/* line 33, ../../app/styles/modules/_migration__breadcrumbs.scss */
+.breadcrumbs__item:hover {
+	text-decoration: underline;
+}
+span.breadcrumbs__item:hover {
+	text-decoration: none;
+}
+/* line 37, ../../app/styles/modules/_migration__breadcrumbs.scss */
+.breadcrumbs > li:first-child > .breadcrumbs__item {
+	padding-left: 0;
+}
+/* line 41, ../../app/styles/modules/_migration__breadcrumbs.scss */
+.breadcrumbs > li:last-child > .breadcrumbs__item {
+	color: #252525;
+}
+@media (max-width: 1227px) {
+/* line 47, ../../app/styles/modules/_migration__breadcrumbs.scss */
+.breadcrumbs {
+/* margin: 0 auto; */
+  }
+}
+@media (min-width: 1228px) {
+/* line 53, ../../app/styles/modules/_migration__breadcrumbs.scss */
+.breadcrumbs {
+/* padding-left: 50px; */
+  }
+}
+/* BREADCRUMS ///////////////////////////////////////////////////////////////////////////////////////*/
+
+hr.bdr_breadcrumbs {
+	display: none;
+}
+.breadcrumbs {
+	margin: 0 50px;
+	font-weight: 100;
+}
+@media (max-width: 480px) {
+hr.bdr_breadcrumbs {
+	display: block;
+	margin-bottom: 18px;
+}
+.breadcrumbs {
+	margin: 0 40px;
+	text-align: center;
+}
+#car_box hr.bdr_breadcrumbs {
+	display: block;
+	margin-bottom: 18px;
+}
+#car_box .breadcrumbs {
+	margin: 0 40px;
+	text-align: center;
+}
+}
+/* FOLLOW TOYOTA ///////////////////////////////////////////////////////////////////////////////////////*/
+
+#follow_toyota {
+    background:white;
+	text-align: center;
+	border-top:1px solid #e5e5e5;
+	border-bottom:1px solid #e5e5e5;
+	width:100%;
+	height:70px;
+	display:table;
+}
+#follow_toyota p {
+	color: #898989;
+	font-size: 15px;
+	font-family: toyotaDisplay, Verdana, Helvetica, Arial, sans-serif;
+	display:table-cell;
+	width:49%;
+	vertical-align:middle;
+	text-align:right;
+	padding:0 10px 0 0;
+}
+#follow_toyota .footer_social_icon {
+	display:table-cell;
+	width:37%;
+	vertical-align:middle;
+}
+#follow_toyota .footer_social_icon img {
+	width: auto;
+	height: 34px;
+}
+
+#follow_toyota .footer_social_icon li {
+	float:left;
+	padding:0 3px;
+}
+
+/* SOCIAL COMMENT ///////////////////////////////////////////////////////////////////////////////////////*/
+
+#social_comment {
+	margin: 0 50px 20px 50px;
+}
+.footer__dist {
+width:101%;	
+}

@@ -1,0 +1,30 @@
+<sly data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"></sly>
+<sly data-sly-call="${clientLib.all @ categories='toyota-bharat.gallery,toyota-bharat.site'}"></sly>
+
+	<sly data-sly-use.gallery="${'com.aem.learning.core.controller.GalleryWcmUse' @ path=properties.carpath}">
+			<div id="gallery" class="sections">
+				<h2>Gallery</h2>
+    			<div class="core cf">
+				<ul class="bxCar-slider" data-sly-list="${gallery.imageList}">
+					<li data-image-l="${item}"><img src="${item}" alt=""></li>
+				</ul>
+				<p id="btn_download_media">
+					<a
+						href=""
+						target="_blank">Download Media</a>
+				</p>
+
+				<div id="bxCar-pager" data-sly-list.listItem="${gallery.imageList}">
+					<a data-slide-index="${listItemList.index}" href="">
+    					<img src="${listItem}"/>
+    				</a>
+    			</div>
+				</div>
+			</div>
+		</sly>
+
+
+
+
+
+

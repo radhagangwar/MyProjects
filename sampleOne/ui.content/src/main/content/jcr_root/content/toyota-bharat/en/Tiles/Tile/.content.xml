@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-08-03T12:25:02.104+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/toyota-bharat/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Tiles"
+        sling:resourceType="toyota-bharat/components/structure/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="toyota-bharat/components/structure/logo"/>
+        <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="toyota-bharat/components/content/title"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="toyota-bharat/components/structure/topnav"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys"/>
+    </jcr:content>
+    <TalkToToyota/>
+    <WhatsNew/>
+    <FindDealer/>
+    <ToyotaConnect/>
+    <UpgradeToToyota/>
+    <QService/>
+</jcr:root>

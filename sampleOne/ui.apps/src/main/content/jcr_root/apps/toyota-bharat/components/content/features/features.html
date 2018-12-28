@@ -1,0 +1,24 @@
+<div id="features" class="sections"
+	data-sly-use.features="${'com.toyotaBharat.core.wcmimpl.FeaturesWCM' @ pagePath = currentPage.path}">
+	<h2>Features</h2>
+
+	<div class="core cf">
+		<ul class="selector cf" id="features_selector">
+			<a href="#" data-filter=".all" class="btn all active current">View all</a>
+			<sly data-sly-list.navFeaturesList="${features.imageUrlDescription}">
+			<a href="#"  data-filter=".${navFeaturesList.parentName}" class="btn">${navFeaturesList.parentTitle}</a>
+			</sly>
+		</ul>
+		<div class="item-list row2 row-ie" id="MixItUp612A1D"
+			data-sly-list.featuresList="${features.imageUrlDescription}">
+			<div class="item all ${featuresList.parentName}"
+				style="display: inline-block;">
+				<ul>
+					<li class="item_thum"><a href="#"><img alt=""
+							src="${featuresList.imagePath}"></a></li>
+					<li><a href="#">${featuresList.imageTitle}</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>

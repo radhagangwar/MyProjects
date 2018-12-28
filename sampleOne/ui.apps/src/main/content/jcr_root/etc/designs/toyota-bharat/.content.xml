@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <clientlib-carousel/>
+    <jcr:content
+        cq:lastModified="{Date}2017-08-31T11:09:21.338+05:30"
+        cq:lastModifiedBy="admin"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="toyotabharat Design"
+        sling:resourceType="wcm/core/components/designer">
+        <page jcr:primaryType="nt:unstructured">
+            <logo
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="toyota-bharat/components/structure/logo"
+                absParent="2">
+                <image/>
+            </logo>
+            <par
+                jcr:lastModified="{Date}2017-08-17T15:50:54.099+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                components="group:Toyota India">
+                <section jcr:primaryType="nt:unstructured"/>
+            </par>
+            <header jcr:primaryType="nt:unstructured">
+                <logo
+                    jcr:lastModified="{Date}2017-08-31T11:09:21.337+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="toyota-bharat/components/structure/logo"
+                    imageReference="/content/dam/toyota-bharat/logo/logo_zxc.png"
+                    imageRotate="0"
+                    maxWidth="165"/>
+            </header>
+        </page>
+        <toyotabharatmainpage jcr:primaryType="nt:unstructured">
+            <content
+                jcr:lastModified="{Date}2017-08-25T14:46:32.133+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                components="/apps/toyota-bharat/components/content/toyotamodels">
+                <section jcr:primaryType="nt:unstructured"/>
+            </content>
+        </toyotabharatmainpage>
+        <contentpage jcr:primaryType="nt:unstructured">
+            <header jcr:primaryType="nt:unstructured">
+                <logo
+                    jcr:lastModified="{Date}2017-08-31T11:00:45.517+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="toyota-bharat/components/structure/logo"
+                    imageReference="/content/dam/toyota-bharat/logo/logo_zxc.png"
+                    imageRotate="0"
+                    maxWidth="165"/>
+            </header>
+        </contentpage>
+    </jcr:content>
+    <clientlib-all/>
+    <clientlib-site/>
+    <favicon.ico/>
+    <clientlib-slingservlet/>
+</jcr:root>

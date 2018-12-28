@@ -1,0 +1,49 @@
+<!--/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ~ Copyright 2016 Adobe Systems Incorporated
+   ~
+   ~ Licensed under the Apache License, Version 2.0 (the "License");
+   ~ you may not use this file except in compliance with the License.
+   ~ You may obtain a copy of the License at
+   ~
+   ~     http://www.apache.org/licenses/LICENSE-2.0
+   ~
+   ~ Unless required by applicable law or agreed to in writing, software
+   ~ distributed under the License is distributed on an "AS IS" BASIS,
+   ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   ~ See the License for the specific language governing permissions and
+   ~ limitations under the License.
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/-->
+<html>
+   <head data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
+      <meta data-sly-call="${clientLib.site @ categories='toyota-bharat.site'}" data-sly-unwrap>
+      </meta>
+
+   </head>
+   <template data-sly-template.default="${@ renderItem}">
+      <a href="${renderItem.item.path}.html">${renderItem.itemName}</a>
+   </template>
+   <template data-sly-template.news="${@ renderItem}">
+      <a class="footer-col__link text-truncate" target="_blank" href="${renderItem.item.path}.html">
+      <time class="footer-col__time">${renderItem.modifdate}:&nbsp;</time>
+      <span class="footer-col__copy">${renderItem.itemName}</span></a>
+   </template>
+
+
+   <template data-sly-template.teaser="${@ renderItem,counts,indexOdd}">
+
+        <li class="tile tile--${counts} ${indexOdd?'green':'red'} style="display: inline-block;">
+         <a href="${renderItem.item.path}.html" target="blank" class="tile__wrap" onclick="ga('send','event','${renderItem.itemName}', 'click', 'recommend');settrend(1);">
+            <div class="tile__content-wrap">
+               <div class="tile__copy">
+                  <h2 class="tile__title"> ${renderItem.itemName}</h2>
+         <p class="tile__desc"></p>
+         </div>
+         </div>
+         <div class="tile__img-wrap"><img class="tile__img" src="${renderItem.hasImage}" alt= "${renderItem.itemName}"></div>
+
+         </a>
+      </li>
+
+   </template>
+
+</html>

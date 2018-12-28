@@ -1,0 +1,43 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+	data-sly-call="${clientlib.all @ categories='myform'}" />
+	
+<h2>Variant Form</h2>
+
+<form id="modelVariantForm" >
+<div data-sly-use.requestModelPath="com.toyotaBharat.core.wcmimpl.SearchPath"></div>
+
+Select Model :
+<select name="modelname" id="modelname">
+	<div data-sly-list.child="${requestModelPath.model.entrySet}">
+		<option value=${child.value}>${child.key}</option>
+	</div>
+</select><br/><br/>
+
+Select Type : 
+<select name="modeltype" id="modeltype">
+	
+</select><br/><br/>
+
+Grade : 
+<input type="text" id="grade" required><br/><br/>
+
+Seater : 
+<select name="seater" id="seater">
+		<option value="5">5</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+</select><br/><br/>
+
+Transmission : 
+<select name="transmission" id="transmission">
+		<option value="NA">NA</option>
+		<option value="Automatic">Automatic</option>
+		<option value="Manual">Manual</option>
+		<option value="CVT">CVT</option>
+		<option value="MT">MT</option>
+		<option value="AT">AT</option>
+</select><br/><br/>
+
+
+<input type="Submit" name="Submit" value="Submit"><br/><br/>
+</form>

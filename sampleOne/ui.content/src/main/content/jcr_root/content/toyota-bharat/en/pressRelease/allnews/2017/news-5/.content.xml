@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-08-25T16:47:37.943+05:30"
+        cq:lastModifiedBy="reference-adjustment-service"
+        cq:template="/apps/ListDemo/templates/newslist"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Toyota launches “Monsoon Car Care Campaign” in South India"
+        jcr:uuid="a3fa2546-ba82-4dc5-950f-3ce6333b43f9"
+        sling:resourceType="/apps/ListDemo/components/2017/customPageComponent">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <title
+                jcr:created="{Date}2017-07-24T15:29:11.702+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-07-24T15:29:11.702+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="toyota-bharat/components/content/title"/>
+            <newspara_text
+                jcr:created="{Date}2017-07-24T15:29:18.011+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-07-24T15:50:40.317+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="toyota-bharat/components/content/newspara-text"
+                text="&lt;p>&lt;b>June 23&lt;sup>rd&lt;/sup>, 2017 Bangalore:&lt;/b>&amp;nbsp;Toyota Kirloskar Motor today announced the launch of its&amp;nbsp;&lt;b>‘Monsoon Car Care Campaign’&lt;/b>&amp;nbsp;offering free vehicle checkups* and other benefits to all its esteemed customers across&amp;nbsp;&lt;b>Karnataka, Andhra Pradesh &amp;amp; Telengana.&lt;/b>&amp;nbsp;Effective from 1&lt;sup>st&lt;/sup>&amp;nbsp;July 2017, the offers will run through the month till 31&lt;sup>st&lt;/sup>&amp;nbsp;July 2017.&lt;/p>&#xa;&lt;p>Toyota has set a benchmark in the automobile industry for its quality products and more so for Q class service experience. The&amp;nbsp;&lt;b>‘Monsoon Car Care Campaign’&lt;/b>&amp;nbsp;is in line with the company’s “Customer First” philosophy, aims to connect with Toyota customers to guarantee safe, comfortable and hassle- free drives during the monsoon season.&lt;/p>&#xa;&lt;p>Under the purview of this campaign, the company offers an assortment of exciting packages &amp;amp; deals like:&lt;/p>&#xa;&lt;ul>&#xa;&lt;li>Free Vehicle Checkup*&lt;/li>&#xa;&lt;li>Chance to win 100% cashback on Extended Warranty*&lt;/li>&#xa;&lt;li>Assured gift on Purchase of Tires*&lt;/li>&#xa;&lt;li>Discount on Car Care treatments*&lt;/li>&#xa;&lt;li>Free Vehicle Valuation*&lt;/li>&#xa;&lt;/ul>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>Speaking on the launch of the Monsoon Campaign,&amp;nbsp;&lt;b>Mr. B. Padmanabha, Vice President (Customer Service Group) - Toyota Kirloskar Motor, said&lt;/b>&amp;nbsp;“At Toyota, the customer delight is the key in all our endeavors. All our efforts are to ensure that every single customer gets the best ownership experience and the best after-sales support with maximum benefits throughout the vehicle life-cycle. The&amp;nbsp;&lt;b>“Monsoon Car Care Campaign&amp;quot;&lt;/b>&amp;nbsp;offers an exciting array of benefits to enhance customer convenience whilst ensuring safety of vehicles during monsoon. Safety is of utmost priority to us, and we are extending complete support to customers towards maintaining their vehicles through regular periodic services that will guarantee safe and trouble-free drives. Through these special service campaign offers, we wish to express our gratitude to our customers for their great trust &amp;amp; most admiration for our world-class products &amp;amp; services.&lt;/p>&#xa;&lt;p>We look forward to a good season and we are sure to delight our customers with these amazing offers this monsoon.”&lt;/p>&#xa;&lt;p>Toyota constantly engages with the customers to deliver the best products &amp;amp; services through its leadership in continuous improvements, thus meet the evolving customer expectations of the markets. With the monsoon season round the corner, this campaign will ensure seasonal preparedness required for the vehicle, thus providing a safe comfortable journey to its customers.&lt;/p>&#xa;&lt;p>Please contact your nearest authorized Toyota dealership for more details.*Conditions Apply.&lt;/p>&#xa;&lt;p>&lt;br>&#xa;&lt;br>&#xa;&lt;/p>&#xa;&lt;p>&lt;b>Overview of TKM&lt;/b>&lt;/p>&#xa;&lt;table width=&quot;100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;5&quot; border=&quot;1&quot;>&#xa;&lt;tbody>&lt;tr>&lt;td width=&quot;21%&quot;>&lt;b>Company name&lt;/b>&lt;/td>&#xa;&lt;td width=&quot;79%&quot;>Toyota Kirloskar Motor Private Limited&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Equity participation&lt;/b>&lt;/td>&#xa;&lt;td>TMC: 89%, Kirloskar Group: 11%&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Number of employees&lt;/b>&lt;/td>&#xa;&lt;td>Approx. 7,000 +&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Land area&lt;/b>&lt;/td>&#xa;&lt;td>Aprox. 432 acres (approx.1,700,000 m2)&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Building area&lt;/b>&lt;/td>&#xa;&lt;td>74,000 m2&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Total Installed Production capacity&lt;/b>&lt;/td>&#xa;&lt;td>Upto 3,10,000 units&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Overview of TKM 1st Plant&lt;/b>&lt;/p>&#xa;&lt;table width=&quot;100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;5&quot; border=&quot;1&quot;>&#xa;&lt;tbody>&lt;tr>&lt;td width=&quot;21%&quot;>&lt;b>Established&lt;/b>&lt;/td>&#xa;&lt;td width=&quot;79%&quot;>October 1997 (start of production: December 1999)&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Location&lt;/b>&lt;/td>&#xa;&lt;td>Bidadi&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Products&lt;/b>&lt;/td>&#xa;&lt;td>Innova, Fortuner manufactured in India.&amp;nbsp;&lt;br>&#xa;Prado, Land Cruiser and Prius imported as CBUs.&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Installed Production capacity&lt;/b>&lt;/td>&#xa;&lt;td>Upto 1,00,000 units&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>Overview of TKM 2nd Plant&lt;/b>&lt;/p>&#xa;&lt;table width=&quot;100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;5&quot; border=&quot;1&quot;>&#xa;&lt;tbody>&lt;tr>&lt;td width=&quot;21%&quot;>&lt;b>Start of Production&lt;/b>&lt;/td>&#xa;&lt;td width=&quot;79%&quot;>December 2010&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Location&lt;/b>&lt;/td>&#xa;&lt;td>On the site of Toyota Kirloskar Motor Private Limited, Bidadi&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Products&lt;/b>&lt;/td>&#xa;&lt;td>Corolla Altis, Etios, Etios Liva, Etios Cross, Camry &amp;amp; Camry Hybrid&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Installed Production capacity&lt;/b>&lt;/td>&#xa;&lt;td>Upto 2,10,000 units&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;&lt;p>&amp;nbsp;&lt;/p>&#xa;&lt;p>&lt;b>For any further Queries please contact:&lt;/b>&lt;/p>&#xa;&lt;table width=&quot;100%&quot; cellspacing=&quot;0&quot; cellpadding=&quot;5&quot; border=&quot;1&quot;>&#xa;&lt;tbody>&lt;tr>&lt;td width=&quot;50%&quot;>&lt;b>Toyota Kirloskar Motor Pvt. Ltd.&lt;/b>&lt;/td>&#xa;&lt;td width=&quot;50%&quot;>&lt;b>Creation&lt;/b>&lt;/td>&#xa;&lt;/tr>&lt;tr>&lt;td>&lt;b>Rani K R&lt;/b>&amp;nbsp;&lt;br>&#xa;&lt;b>Mobile :&lt;/b>&amp;nbsp;+91 88612 08520&amp;nbsp;&lt;br>&#xa;&lt;b>Email :&lt;/b>&amp;nbsp;&lt;a href=&quot;mailto:Rani_k@toyota-kirloskar.co.in&quot;>Rani_k@toyota-kirloskar.co.in&lt;/a>&lt;/td>&#xa;&lt;td>&lt;b>Kaveri Mandanna&lt;/b>&amp;nbsp;&lt;br>&#xa;&lt;b>Mobile :&lt;/b>+91 90089-59697&amp;nbsp;&lt;br>&#xa;&lt;b>Email :&lt;/b>&amp;nbsp;&lt;a href=&quot;mailto::%20kaveri.mandanna@creation.io&quot;>: kaveri.mandanna@creation.io&lt;/a>&lt;/td>&#xa;&lt;/tr>&lt;/tbody>&lt;/table>&#xa;"
+                textIsRich="true"/>
+            <image
+                jcr:created="{Date}2017-07-24T15:49:54.484+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-07-24T15:49:54.484+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="toyota-bharat/components/content/image"
+                fileReference="/content/dam/toyota-bharat/tiles/monsoon campaign- english_tcm34-117989.jpg"/>
+        </par>
+        <image
+            jcr:lastModified="{Date}2017-07-25T10:40:23.751+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            fileReference="/content/dam/toyota-bharat/tiles/monsoon campaign- english_tcm34-117989.jpg"
+            imageRotate="0"/>
+    </jcr:content>
+</jcr:root>

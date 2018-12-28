@@ -1,0 +1,19 @@
+/* CSS Document */
+
+.inner_bxbox {
+	padding: 0px 50px 20px 60px;
+}
+.bx-wrapper .bx-viewport {
+	background:transparent;
+}
+#gallery_photo_box .bx-wrapper img {
+	width:100%;
+}
+.bx-wrapper .bx-controls-direction a {
+	z-index:auto;
+}
+.bx-wrapper .bx-viewport {
+	background-color:transparent;
+}
+@media (min-width: 768px) {
+}

@@ -1,0 +1,8 @@
+#main_visual .quick-spec p.metric {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#grey #main_visual {
+    border-top: solid 0px;
+}

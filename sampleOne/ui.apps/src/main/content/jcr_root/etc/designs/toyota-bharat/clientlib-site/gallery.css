@@ -1,0 +1,69 @@
+#gallery .jcarousel-wrapper {
+    /* margin: 20px auto; */
+    padding: 3px 50px 0 50px;
+    position: relative;
+    
+    overflow: hidden;
+}
+
+/** Carousel **/
+
+#gallery .jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+#gallery .jcarousel ul {
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#gallery .jcarousel li {
+    width: 88px;
+    float: left;
+    /* border: 1px solid #000; */
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    text-align: center;
+}
+
+
+#gallery .jcarousel img {
+    display: block;
+    max-width: 100%;
+    height: auto !important;
+    
+    margin: 3px auto 0 auto;
+}
+
+#gallery .jcarousel li.selected img {
+	border: 3px solid #333;
+	margin-top: 0;
+}
+
+
+/** Carousel Controls **/
+
+#gallery .jcarousel-control-prev,
+#gallery .jcarousel-control-next {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    width: 17px;
+    height: 32px;
+}
+
+#gallery .jcarousel-control-prev {
+    left: 15px;
+}
+
+#gallery .jcarousel-control-next {
+    right: 15px;
+}
+

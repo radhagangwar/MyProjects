@@ -1,0 +1,44 @@
+
+
+<html>
+    <head data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
+		<meta data-sly-call="${clientLib.all @ categories='toyota-bharat.site'}" data-sly-unwrap></meta>
+	</head>
+<body>
+<template data-sly-template.default="${@ renderItem}">
+<p>
+    <a href="${renderItem.item.path}.html"
+        onclick="CQ_Analytics.record({event: 'listItemClicked', values: { listItemPath: '${renderItem.item.path @ context='scriptString'}' }, collect:  false, options: { obj: this }, componentPath: '${resource.resourceType @ context='scriptString'}'})">${renderItem.itemName}</a>
+</p>
+</template>
+<template data-sly-template.news="${@ renderItem}">
+
+
+  <div class="item-list" id="MixItUp6FFA0C">
+         <div class="item all all" style="display: inline-block;">
+            <ul>
+               <li class="item_thum"><a class="btn_reviews" href=""><img src="${renderItem.hasimage}"></a></li>
+               <li class="item_title">${renderItem.hastitle}</li>
+
+            </ul>
+            </div>
+</div>
+
+
+</template>
+<template data-sly-template.teaser="${@ renderItem}">
+<p>
+    <a href="${renderItem.item.path}.html"
+            onclick="CQ_Analytics.record({event: 'listTeaserItemClicked', values: { listItemPath: '${renderItem.item.path @ context='scriptString'}' }, collect:  false, options: { obj: this }, componentPath: '${resource.resourceType @ context='scriptString'}'})">
+        <img data-sly-test="${renderItem.hasimage}" class="teaser" src="${renderItem.item.path}/jcr:content.thumbnail.48.48.jpg" alt=""/>
+        <span class="teaser-title">${renderItem.itemName}</span>
+    </a>
+    <sly data-sly-test="${renderItem.item.description}">
+        <br/>
+        <span class="teaser-description">${renderItem.item.description}</span>
+    </sly>
+</p>
+</template>
+
+</body>
+</html>

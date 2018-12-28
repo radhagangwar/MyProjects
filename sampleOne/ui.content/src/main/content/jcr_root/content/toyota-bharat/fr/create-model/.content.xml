@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2017-07-26T11:23:07.215+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/toyota-bharat/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Create Model "
+        sling:resourceType="toyota-bharat/components/structure/page">
+        <logo
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="toyota-bharat/components/structure/logo"/>
+        <title
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="toyota-bharat/components/content/title"/>
+        <topnav
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="toyota-bharat/components/structure/topnav"/>
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <start
+                jcr:created="{Date}2017-07-24T20:10:18.640+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-07-25T19:53:09.636+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="foundation/components/form/start"
+                action="/content/usergenerated/toyota-bharat/fr/create-model/cq-gen1500907218641/"
+                actionType="toyota-bharat/components/customModelForm"
+                formid="_content_toyota-bharat_fr_create-model_jcr_content_par_start"
+                redirect="/content/toyota-bharat/fr/ThankYou"/>
+            <text
+                jcr:created="{Date}2017-07-24T20:10:32.463+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-07-25T10:25:16.742+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Model Name"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/text"
+                name="modelName"/>
+            <checkbox
+                jcr:created="{Date}2017-07-26T10:51:45.803+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-07-26T11:23:07.205+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Model Types"
+                sling:resourceSuperType="foundation/components/form/defaults/field"
+                sling:resourceType="foundation/components/form/checkbox"
+                name="modelTypes"
+                options="[Petrol,Diesel,Hybrid]"/>
+            <form_end_1500907218642
+                jcr:lastModified="{Date}2017-07-24T20:11:06.236+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Submit"
+                sling:resourceType="foundation/components/form/end"
+                submit="true"/>
+        </par>
+    </jcr:content>
+</jcr:root>

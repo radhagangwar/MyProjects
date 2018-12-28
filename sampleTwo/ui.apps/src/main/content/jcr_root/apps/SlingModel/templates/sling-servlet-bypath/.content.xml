@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:description="Template created for checking Sling Servlet Register by Path"
+    jcr:primaryType="cq:Template"
+    jcr:title="Sling Servlet Template By path"
+    allowedPaths="[/content/SlingModel/.+]"
+    ranking="{Long}2">
+    <jcr:content
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="SlingModel/components/page/sling-servlet-bypath"/>
+</jcr:root>

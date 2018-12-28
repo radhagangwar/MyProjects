@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Link 1">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Name :"
+                        name="./linkname"
+                        xtype="textfield"/>
+                    <path
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Page Path :"
+                        name="./pagepath"
+                        xtype="pathfield"/>
+                </items>
+            </tab1>
+            <tab2
+                jcr:primaryType="cq:Panel"
+                title="Link 2">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Name :"
+                        name="./linkname1"
+                        xtype="textfield"/>
+                    <path
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Page Path :"
+                        name="./pagepath1"
+                        xtype="pathfield"/>
+                </items>
+            </tab2>
+            <tab3
+                jcr:primaryType="cq:Panel"
+                title="Link 3">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Name :"
+                        name="./linkname2"
+                        xtype="textfield"/>
+                    <path
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Page Path :"
+                        name="./pagepath2"
+                        xtype="pathfield"/>
+                </items>
+            </tab3>
+            <tab4
+                jcr:primaryType="cq:Panel"
+                title="Link 4">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Name :"
+                        name="./linkname3"
+                        xtype="textfield"/>
+                    <path
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Page Path :"
+                        name="./pagepath3"
+                        xtype="pathfield"/>
+                </items>
+            </tab4>
+            <tab5
+                jcr:primaryType="cq:Panel"
+                title="Link 5">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Name :"
+                        name="./linkname4"
+                        xtype="textfield"/>
+                    <path
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Page Path :"
+                        name="./pagepath4"
+                        xtype="pathfield"/>
+                </items>
+            </tab5>
+        </items>
+    </items>
+</jcr:root>

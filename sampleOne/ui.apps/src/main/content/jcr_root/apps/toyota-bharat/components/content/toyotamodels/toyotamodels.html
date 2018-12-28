@@ -1,0 +1,55 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" 
+data-sly-call="${clientlib.all @ categories='toyota-bharat.site'}" />
+
+<div id="toyota_models" class="toyota_models" data-sly-use.carmodels="com.toyotaBharat.core.wcmimpl.CarModelWCM">
+
+	<h2>ACME Models</h2>
+
+	<div id="model_selector" class="selector">
+
+		<ul class="cf">
+
+            <li><a href="#" class="btn all current active" data-filter="*">All Products</a></li>
+			<li><a href="#" class="btn" data-filter=".cars">Cars</a></li>
+            <li><a href="#" class="btn" data-filter=".mpv">MPV</a></li>
+			<li><a href="#" class="btn" data-filter=".suv">SUV</a></li>
+			<li><a href="#" class="btn" data-filter=".hybridgreen">Hybrid/Green Car</a></li>
+		</ul>
+		<p class="btn_compare_models">Compare Model</p>
+	</div>
+		
+	<div class="row2 row-ie" id="MixItUpC27D91" data-sly-list.child="${carmodels.carModelsData.entrySet}">
+		<sly data-sly-test="${child.value.carType =='MPV'}">
+			<a class="item all mpv" href="#" style="display: inline-block;">	
+				<div class="modelitem">
+					<img alt="${child.value.carName}" src="${child.key.carImagePath}">
+					<span><strong>${child.value.carName}</strong></span>
+				</div>
+			</a>
+		</sly>
+		<sly data-sly-test="${child.value.carType =='Cars'}">
+			<a class="item all cars" href="#" style="display: inline-block;">
+				<div class="modelitem">
+					<img alt="${child.value.carName}" src="${child.key.carImagePath}">
+					<span><strong>${child.value.carName}</strong></span>
+				</div>
+			</a>	
+		</sly>
+		<sly data-sly-test="${child.value.carType =='SUV'}">
+			<a class="item all suv" href="#" style="display: inline-block;">
+				<div class="modelitem">
+					<img alt="${child.value.carName}" src="${child.key.carImagePath}">
+					<span><strong>${child.value.carName}</strong></span>
+				</div>
+			</a>	
+		</sly>
+		<sly data-sly-test="${child.value.carType =='Hybrid'}">
+			<a class="item all hybridgreen cars" href="#" style="display: inline-block;">
+				<div class="modelitem">
+					<img alt="${child.value.carName}" src="${child.key.carImagePath}">
+					<span><strong>${child.value.carName}</strong></span>
+				</div>
+			</a>	
+		</sly>
+	</div>
+</div>

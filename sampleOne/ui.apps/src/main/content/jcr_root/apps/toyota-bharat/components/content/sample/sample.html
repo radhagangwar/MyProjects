@@ -1,0 +1,16 @@
+${currentPage.path}
+<div data-sly-use.hell="com.toyotaBharat.core.serviceImpl.SampleWCM">
+	
+<table border="2">
+  <tr>
+    <th>KEY</th>
+    <th>Value</th>
+  </tr>
+  <tbody data-sly-list.child="${hell.sample.entrySet}">
+  <tr>
+    <td>${child.key.carModelPrice}</td>
+    <td>${child.value.carModelName}</td>
+  </tr>
+  </tbody>
+</table>
+</div>

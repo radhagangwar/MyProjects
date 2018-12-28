@@ -1,0 +1,220 @@
+/* line 1, ../../app/styles/defaults/_base.scss */
+html {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+}
+
+/* line 7, ../../app/styles/defaults/_base.scss */
+body {
+  color: #333;
+  font: 13px Verdana, Helvetica, Arial, sans-serif;
+  *font: 82% Verdana, Helvetica, Arial, sans-serif;
+  min-height: 100%;
+  margin: 0;
+  
+  line-height: 1.7;
+  
+  *font-size:small;
+  *font:x-small;
+}
+
+.f10 { font-size:77%; }
+.f11 { font-size:85%; }
+.f12 { font-size:93%; }
+.f13 { font-size:100%; }
+.f14 { font-size:108%; }
+.f15 { font-size:116%; }
+.f16 { font-size:123.1%; }
+.f17 { font-size:131%; }
+.f18 { font-size:138.5%; }
+.f19 { font-size:146.5%; }
+.f20 { font-size:153.9%; }
+.f21 { font-size:161.6%; }
+.f22 { font-size:167%; }
+.f23 { font-size:174%; }
+.f24 { font-size:182%; }
+.f25 { font-size:189%; }
+.f26 { font-size:197%; }
+
+
+/* line 14, ../../app/styles/defaults/_base.scss */
+a {
+  color: #363636;
+  text-decoration: none;
+}
+
+
+/* line 19, ../../app/styles/defaults/_base.scss */
+img {
+  display: block;
+  border: none;
+}
+
+/* line 24, ../../app/styles/defaults/_base.scss */
+table {
+  width: 100%;
+}
+
+/* line 28, ../../app/styles/defaults/_base.scss */
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 33, ../../app/styles/defaults/_base.scss */
+ul, ol, dl {
+  list-style: none;
+}
+
+/* line 37, ../../app/styles/defaults/_base.scss */
+input[type=search] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-user-modify: read-write-plaintext-only;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+/* line 40, ../../app/styles/defaults/_base.scss */
+input[type=search]::-webkit-search-cancel-button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+@font-face {
+  font-family: "GothamLight";
+  src: url('../fonts/d949e1fd.gotham-light.eot');
+  src: url('../fonts/d949e1fd.gotham-light.eot?#iefix') format('embedded-opentype'), url('../fonts/5a3ae165.gotham-light.woff') format('woff'), url('../fonts/c6c9d2dc.gotham-light.ttf') format('truetype'), url('../fonts/82625e3f.gotham-light.svg#GothamLight') format('svg');
+  font-weight: "normal";
+}
+@font-face {
+  font-family: "GothamMedium";
+  src: url('../fonts/b8442a7d.gotham-medium.eot');
+  src: url('../fonts/b8442a7d.gotham-medium.eot?#iefix') format('embedded-opentype'), url('../fonts/b31e4db3.gotham-medium.woff') format('woff'), url('../fonts/6417c137.gotham-medium.ttf') format('truetype'), url('../fonts/4f0b1281.gotham-medium.svg#GothamMedium') format('svg');
+  font-weight: "normal";
+}
+
+
+/*TOYOTA Regular FONT*/
+@font-face {
+  font-family: "toyotaDisplay";
+  src: url('../fonts/toyotadisplay_rg.eot');
+  src: url('../fonts/toyotadisplay_rg.eot?#iefix') format('embedded-opentype'),
+       url('../etc/designs/toyota-bharat/clientlib-site/fonts/toyotadisplay_rg.woff') format('woff'),
+       url('../fonts/toyotadisplay_rg.ttf') format('truetype'),
+       url('../fonts/toyotadisplay_rg.svg#toyota_displayregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'toyotaDisplay';
+  src: url('../fonts/toyotadisplay_bd.eot');
+  src: url('../fonts/toyotadisplay_bd.eot?#iefix') format('embedded-opentype'),
+       url('../etc/designs/toyota-bharat/clientlib-site/fonts/toyotadisplay_bd.woff') format('woff'),
+       url('../fonts/toyotadisplay_bd.ttf') format('truetype'),
+       url('../fonts/toyotadisplay_bd.svg#toyota_displaybold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+/* line 1, ../../app/styles/defaults/_unsemantic.scss */
+.cf:after, body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 7, ../../app/styles/defaults/_unsemantic.scss */
+.relative {
+  position: relative;
+}
+
+/* line 8, ../../app/styles/defaults/_unsemantic.scss */
+.block {
+  display: block;
+}
+
+/* line 9, ../../app/styles/defaults/_unsemantic.scss */
+.inline-block {
+  display: inline-block;
+}
+
+/* line 10, ../../app/styles/defaults/_unsemantic.scss */
+.full-width {
+  width: 100%;
+}
+
+
+/* line 1, ../../app/styles/layouts/_wrapper.scss */
+.wrapper {
+  /* margin: 0 auto; */
+}
+
+/* line 1, ../../app/styles/layouts/_new__container.scss */
+.container {
+  position: relative;
+  width: 100%;
+  margin: auto;
+  float: left;
+}
+
+/* line 8, ../../app/styles/layouts/_new__container.scss */
+.container:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 10px;
+  box-shadow: inset 6px 0 14px -6px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  
+  border-left: none;
+}
+/*ie8*/ /*ie9*/
+/*.container:after {
+	border-left: 1px solid #dadada \0/;
+}*/
+
+/*ie9*/ /*ie10*/
+/*@media all and (min-width:0) {
+  .container:after {
+    border-left: none \0/;
+  }
+}*/
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.container:after {
+	    box-shadow: none;
+	}
+}
+
+/* line 1, ../../app/styles/modules/_js-message.scss */
+.js-message {
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #333333;
+  background: #ebebeb;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+
+
+/* line 1, ../../app/styles/layouts/_grid.scss */
+.span-50 {
+  width: 50%;
+}
+
+/* line 4, ../../app/styles/layouts/_grid.scss */
+.span-25 {
+  width: 25%;
+}
+
+

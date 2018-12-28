@@ -1,0 +1,172 @@
+/* toyota_models */
+.toyota_models {
+	overflow:auto;
+	background-color:#fff;
+	font-family: toyotaDisplay, Verdana, Helvetica, Arial, sans-serif;
+	text-align:center;
+	overflow:hidden;
+}
+.toyota_models .row {
+	clear:both;
+	overflow:hidden;
+	text-align:left;
+}
+.header .toyota_models .row {
+}
+.toyota_models .row a {
+/*	float:left;*/
+	display:block;
+	width:33.33%;
+	height:95px;
+	position:relative;
+	margin-bottom:15px;
+	
+	display:none;/* for MixItUp */
+}
+.toyota_models .row a .modelitem span {
+	text-align: left;
+	color: #888f93;
+	display: block;
+	position:absolute;
+	left:0;
+	bottom:0;
+	padding:0 0 0 15px;
+	line-height:1.4em;
+}
+.toyota_models .row a .modelitem .model-decoration.hybrid {
+	background: #00a0f0;
+	border-radius: 2px;
+	color: #fff;
+	padding: 2px 4px;
+	left:10px;
+	bottom:20px;
+	font-size:10px;
+}
+.toyota_models .row a .modelitem img {
+	margin:0 auto;
+}
+.toyota_models .row a .modelitem span strong {
+	color: #1e2a32;
+	display: block;
+	font-weight:bold;
+}
+.toyota_models .row a .modelitem span strong.hybrid-only {
+	color: #00a0f0;
+}
+.toyota_models .selector .btn, .toyota_models .btn_compare_models {
+	display:inline;
+	font-size:116%;
+	line-height:1em;
+	padding:4px 20px;
+	margin-bottom:10px;
+	-webkit-text-size-adjust: 100%;/* disable auto font-size adjust for iPhone*/
+	cursor:pointer;
+}
+.toyota_models .selector .btn:hover, .toyota_models .selector .btn.current {
+	border-radius: 16px;
+	color:#fff;
+	background-color:#e70d22;
+	background: -moz-linear-gradient(top, #d20c1f 0%, #e92235);
+	background: -webkit-gradient(linear, left top, left bottom, from(#d20c1f), to(#e92235));
+}
+.toyota_models .btn_compare_models {
+	border-radius: 16px;
+	color:#fff;
+	background-color:#737373;
+	background: -moz-linear-gradient(top, #696969 0%, #7f7f7f);
+	background: -webkit-gradient(linear, left top, left bottom, from(#696969), to(#7f7f7f));
+}
+ @media (max-width: 767px) {
+.toyota_models h2 {
+	font-size:20px;
+	text-align:center;
+	padding-bottom:20px;
+}
+.toyota_models .selector {
+	margin-bottom:36px;
+}
+.toyota_models .selector ul {
+	margin:16px 20px;
+}
+.toyota_models .selector li.btn {
+	display:block;
+	float:left;
+}
+}
+ @media (min-width: 768px) and (max-width: 1024px) {
+.toyota_models {
+	text-align:left;
+	z-index:1;
+	padding:20px;
+}
+.toyota_models .row a {
+	width:22%;
+}
+.toyota_models h2 {
+	font-size:28px;
+	float:left;
+}
+.toyota_models .selector {
+	width:auto;
+	position:relative;
+	margin:14px 200px 0 220px;
+	overflow:visible;
+}
+.toyota_models .all {
+	float:left;
+	margin-right:20px;
+}
+.toyota_models li {
+	float:left;
+	margin-left:10px;
+}
+.toyota_models .btn_compare_models {
+	position:absolute;
+	left:100%;
+	top:0px;
+	white-space:nowrap;
+}
+.toyota_models .row {
+	padding-top:10px;
+}
+}
+ @media (min-width: 1025px) {
+.toyota_models {
+	text-align:left;
+	z-index:1;
+}
+.container .toyota_models {
+	padding:20px 0;
+}
+.toyota_models .row {
+}
+.toyota_models .row a {
+	width:170px;
+    display:inline-block;
+}
+.toyota_models h2 {
+	font-size:28px;
+	float:left;
+	padding-left:26px;
+}
+.toyota_models .selector {
+	width:auto;
+	position:relative;
+	margin:14px 200px 14px 220px;
+	overflow:visible;
+}
+.toyota_models .all {
+	float:left;
+	margin-left:20px;
+}
+.toyota_models li {
+	float:left;
+	margin-left:10px;
+}
+.toyota_models .btn_compare_models {
+	position:absolute;
+	left:100%;
+	top:0px;
+	white-space:nowrap;
+}
+}

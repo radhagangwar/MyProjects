@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Link 1">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Web Address :"
+                        name="./socialhref"
+                        xtype="textfield"/>
+                    <path
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Icon Path :"
+                        name="./imgpath"
+                        xtype="pathfield"/>
+                    <alttext
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Alt Text :"
+                        name="./altname"
+                        xtype="textfield"/>
+                </items>
+            </tab1>
+            <tab2
+                jcr:primaryType="cq:Panel"
+                title="Link 2">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Web Address :"
+                        name="./socialhref1"
+                        xtype="textfield"/>
+                    <path
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Icon Path :"
+                        name="./imgpath1"
+                        xtype="pathfield"/>
+                    <alttext
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Alt Text :"
+                        name="./altname1"
+                        xtype="textfield"/>
+                </items>
+            </tab2>
+            <tab3
+                jcr:primaryType="cq:Panel"
+                title="Link 3">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <text
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Web Address :"
+                        name="./socialhref2"
+                        xtype="textfield"/>
+                    <path
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Icon Path :"
+                        name="./imgpath2"
+                        xtype="pathfield"/>
+                    <alttext
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Alt Text :"
+                        name="./altname2"
+                        xtype="textfield"/>
+                </items>
+            </tab3>
+        </items>
+    </items>
+</jcr:root>

@@ -1,0 +1,52 @@
+<!--/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ~ Copyright 2016 Adobe Systems Incorporated
+   ~
+   ~ Licensed under the Apache License, Version 2.0 (the "License");
+   ~ you may not use this file except in compliance with the License.
+   ~ You may obtain a copy of the License at
+   ~
+   ~     http://www.apache.org/licenses/LICENSE-2.0
+   ~
+   ~ Unless required by applicable law or agreed to in writing, software
+   ~ distributed under the License is distributed on an "AS IS" BASIS,
+   ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   ~ See the License for the specific language governing permissions and
+   ~ limitations under the License.
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/-->
+<html>
+   <head data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
+      <meta data-sly-call="${clientLib.site @ categories='toyota-bharat.site'}" data-sly-unwrap>
+      </meta>
+   </head>
+   <template data-sly-template.default="${@ renderItem}">
+      <div style="margin-left: 2em;list-style: none;" class="news_year_list cf">
+         <a href="${renderItem.item.path}.html">${renderItem.itemName}</a>
+      </div>
+   </template>
+
+   <template data-sly-template.news="${@ renderItem}">
+
+               <ul class="footer-col__list">
+                  <a class="footer-col__link text-truncate" target="_blank" href="${renderItem.item.path}.html">
+                  <time class="footer-col__time">${renderItem.modifdate}:&nbsp;</time>
+                  <span class="footer-col__copy">${renderItem.itemName}</span></a>
+
+               </ul>
+
+   </template>
+
+   <template data-sly-template.teaser="${@ renderItem}">
+      <dl class="cf" >
+         <dt class="item_thum">
+            <a href="${renderItem.item.path}.html">
+            <img src="${renderItem.hasImage}"/></a>
+         </dt>
+         <dd>
+            <p class="date">Jul 20, 2017</p>
+            <p class="title"><a href="${renderItem.item.path}.html">${renderItem.itemName}</a></p>
+            <p class="summary">	${renderItem.hasPar }  </p>
+            <p class="category"></p>
+         </dd>
+      </dl>
+   </template>
+</html>

@@ -1,0 +1,179 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" />
+<sly data-sly-call="${clientlib.all @ categories='toyota-bharat.site'}" />
+
+    <div class="header_box" >
+        <a href="/" class="logo">
+			<div class="logo__img" data-sly-resource="${'logo' @ resourceType='/apps/toyota-bharat/components/structure/logo'}"></div>
+        </a> 
+        
+        <a href="#" class="mobile-nav-but js-mobile-nav-but">
+            <span class="icon icon--sandwitch"></span>
+        </a>
+        
+            <div class="nav-wrapper js-nav-wrapper" data-sly-use.recursive="com.toyotaBharat.core.wcmimpl.FixedHeaderWCM" >    
+                <template data-sly-template.descendants="${@ page}">
+
+                   <sly data-sly-test="${page.depth == 5}">
+						<sly data-sly-test="${page.title == 'ShowRoom'}">
+							<a href="#" class="nav__link js-nav-link" data-active="${page.name}" aria-haspopup="true">${page.title}</a>
+							<span class="icon icon--sub-close"></span>
+						<div class="nav__sub open_toyota_models">
+							<ul class="nav__sub__list cars">
+
+								<li class="btn" data-filter="*">
+								<a class="nav__sub__link">All Products</a>
+								</li>
+								<li class="btn" data-filter=".cars">
+									<a class="nav__sub__link">Cars</a>
+								</li>
+								<li class="btn" data-filter=".mpv">
+									<a class="nav__sub__link">MPV</a>
+								</li>
+								<li class="btn" data-filter=".suv">
+									<a class="nav__sub__link">SUV</a>
+								</li>
+								<li class="btn" data-filter=".hybridgreen">
+									<a class="nav__sub__link">Hybrid / Green Car</a>
+								</li>
+
+							</ul>
+
+							<ul class="nav__sub__list others">
+								<li class="btn compare">
+									<a href="#" class="nav__sub__link compare">Compare Model</a>
+								</li>
+								
+								<li class="btn ">
+									<a href="/content/toyota-bharat/en.html" class="nav__sub__link ">Certified Used Cars</a>
+								</li>
+							</ul>
+
+                                <div class="toyota_models" id="nav__modeles" data-sly-use.hell="com.toyotaBharat.core.wcmimpl.CarModelWCM">
+                                                                <div id="scroll_box">
+                                
+                                        <div class="row row-ie" id="MixItUpC27D91" data-sly-list.child="${hell.carModelsData.entrySet}">
+                                        <sly data-sly-test="${child.value.carType =='MPV'}">
+                                            <a class="item all mpv" href="#">	
+                                                <div class="modelitem">
+                                                    <img alt="${child.value.carName}" src="${child.key.carImagePath}">
+                                                    <span><strong>${child.value.carName}</strong></span>
+                                                </div>
+                                            </a>
+                                        </sly>
+                                        <sly data-sly-test="${child.value.carType =='Cars'}">
+                                            <a class="item all cars" href="#">
+                                                <div class="modelitem">
+                                                    <img alt="${child.value.carName}" src="${child.key.carImagePath}">
+                                                    <span><strong>${child.value.carName}</strong></span>
+                                                </div>
+                                            </a>	
+                                        </sly>
+                                        <sly data-sly-test="${child.value.carType =='SUV'}">
+                                            <a class="item all suv" href="#">
+                                                <div class="modelitem">
+                                                    <img alt="${child.value.carName}" src="${child.key.carImagePath}">
+                                                    <span><strong>${child.value.carName}</strong></span>
+                                                </div>
+                                            </a>	
+                                        </sly>
+                                        <sly data-sly-test="${child.value.carType =='Hybrid'}">
+                                            <a class="item all hybridgreen cars" href="#">
+                                                <div class="modelitem">
+                                                    <img alt="${child.value.carName}" src="${child.key.carImagePath}">
+                                                    <span><strong>${child.value.carName}</strong></span>
+                                                </div>
+                                            </a>	
+                                        </sly>
+                                    </div>
+                                </div>
+                                </div>
+						</sly>
+							<sly data-sly-test="${page.title != 'ShowRoom'}">
+                        <a href="#" class="nav__link js-nav-link" data-active="${page.name}" aria-haspopup="true">${page.title}</a>
+                          <span class="icon icon--sub-close"></span>
+                          <div class="nav__sub">
+                              <ul class="nav__sub__list"  data-sly-list.child="${page.listChildren}">
+                                  <li data-sly-call="${descendants @ page=child}"></li>
+                            </ul>
+                        </div>
+						</sly>
+                    </sly>
+                    
+                    <sly data-sly-test="${page.depth == 6}">
+                        <a href="${page.path}.html" class="nav__sub__link">${page.title}</a>
+                        <span class="sub-close"></span>
+                        <div class="nav__sub__modeles">
+                              <ul data-sly-list.child="${page.listChildren}">
+                                  <li  data-sly-call="${descendants @ page=child}"></li>
+                            </ul>
+                        </div>
+                    </sly>
+                    <sly data-sly-test="${page.depth == 7}">
+                    
+                    <a href="${page.path}.html">${page.title}</a>  
+                    </sly>
+                    
+                    <sly data-sly-test="${page.depth == 4}">
+                        
+                            <div class="nav-scroll" style="" >                     
+                                <ul class="nav cf" data-sly-list.child="${page.listChildren}">
+                                  <li id="open_nav_sub_modeles" data-sly-call="${descendants @ page=child}">
+                                      
+                                  </li>
+                                </ul> 
+                             </div>
+                         
+                    </sly>
+                </template>
+                
+                <div data-sly-call="${descendants @ page=recursive.headerPages}" data-sly-unwrap></div>
+                              
+            <!--/.nav-->
+            <ul class="nav2" id="nav2" data-sly-list.fixedpages="${recursive.fixedPages.entrySet}">
+                <li>
+                    <a href="${fixedpages.value.pagePath}.html"  class="${fixedpages.value.pageName}">${fixedpages.key}</a>
+                </li>
+            </ul>    
+            
+            <!--/.subnav2-->        
+                <div class="social">
+                    <span class="subnav__copy">Follow Toyota</span>
+                    <ul class="cf">
+                        <li>
+                            <a href="https://twitter.com/Toyota_India" class="social__link" target="_blank">
+                                <img src="/content/dam/toyota-bharat/social_icon/twitter.png" alt="twitter" class="social__img">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/ToyotaIndia" class="social__link" target="_blank">
+                                <img src="/content/dam/toyota-bharat/social_icon/fb.png" alt="facebook" class="social__img">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/user/ToyotainIndia" class="social__link" target="_blank">
+                                <img src="/content/dam/toyota-bharat/social_icon/youtube.png" alt="youtube" class="social__img">
+                            </a>
+                        </li>
+                    </ul>
+                  </div>          
+                
+                <!--/.social-->            
+                <ul class="subnav cf">    
+                    <li>
+                        <a href="#" class="subnav__link subnav__link--search js-search-handle">
+                            <span class="icon icon--search subnav__icon"></span>
+                            <span class="subnav__copy"></span>
+                        </a>
+                    </li>    
+                    <li>
+                        <a href="http://www.toyota-global.com/" class="subnav__link subnav__link--region" target="_blank">
+                            <span class="icon icon--region subnav__icon"></span>
+                            <span class="subnav__copy">Global Website</span>
+                        </a>
+                    </li>
+                </ul>            
+                <!--/.subnav-->  
+                      
+                <!--/.nav-wrapper-->
+        </div>  
+    </div>

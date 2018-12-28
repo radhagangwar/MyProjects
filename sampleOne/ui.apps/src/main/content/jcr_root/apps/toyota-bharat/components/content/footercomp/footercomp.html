@@ -1,0 +1,66 @@
+<sly data-sly-use.info="com.toyotaBharat.core.wcmimpl.FooterDataWCM">
+<sly data-sly-list.data1="${info.getFooterData}">
+	<div id="follow_toyota" class="cf">
+			<p>Follow Toyota</p>
+			<ul class="footer_social_icon cf">
+				<li>
+					<a href="${data1.twitterLink}" class="social__link" target="_blank">
+					<img src="${data1.twitterIconPath}" alt="${data1.twitterAltText}" class="social__img">
+					</a>
+				</li>
+				
+				<li>
+					<a href="${data1.facebookLink}" class="social__link" target="_blank">
+					<img src="${data1.facebookIconPath}" alt="${data1.facebookAltText}" class="social__img">
+					</a>
+				</li>
+				
+				<li>
+					<a href="${data1.youtubeLink}" class="social__link" target="_blank">
+					<img src="${data1.youtubeIconPath}" alt="${data1.youtubeAltText}" class="social__img">
+					</a>
+				</li>
+			</ul>
+	</div>
+	
+	<div class="footer__secondary cf">
+			<ul class="footer__nav">
+				<li>
+					<a href="${data1.contactUsPath}" class="footer__nav__link">
+						${data1.contactUsText}
+					</a>
+				</li>
+				
+				<li>
+					<a href="${data1.announcementPath}" class="footer__nav__link">
+						${data1.announcementText}
+					</a>
+				</li>
+				
+				<li>
+					<a href="${data1.legalNoticePath}" class="footer__nav__link">
+						${data1.legalNoticeText}
+					</a>
+				</li>
+					
+				<li>
+					<a href="${data1.helpPath}" class="footer__nav__link">
+						${data1.helpText}
+					</a>
+				</li>
+				
+				<li>
+					<a href="${data1.siteMapPath}" class="footer__nav__link">
+						${data1.siteMapText}
+					</a>
+				</li>
+			</ul>
+				
+		<div class="footer__copyright">
+			${data1.copyRightText @ context='html'}
+		</div>
+	</div>
+
+</sly>
+</sly>
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudserviceconfigs="[[]]"
+        cq:contextHubPath="/etc/cloudsettings/default/contexthub"
+        cq:contextHubSegmentsPath="/etc/segmentation/contexthub"
+        cq:lastModified="{Date}2017-08-23T15:16:57.395+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/toyota-bharat/templates/toyotabharatpartemplate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="FooterAuthorPage"
+        jcr:uuid="96cfec10-a9a5-4f2a-a5b9-a7044677e80a"
+        sling:resourceType="/apps/toyota-bharat/components/structure/toyotabharatparpage">
+        <content
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <footer
+                jcr:created="{Date}2017-08-14T13:16:27.245+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2017-08-14T13:16:27.245+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="toyota-bharat/components/content/footer">
+                <textinfo1
+                    jcr:lastModified="{Date}2017-08-14T13:17:05.627+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="toyota-bharat/components/content/text"
+                    text="&lt;p>Follow Toyota&lt;/p>&#xa;"
+                    textIsRich="true"/>
+                <textinfo
+                    jcr:lastModified="{Date}2017-08-14T13:17:33.857+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="toyota-bharat/components/content/text"
+                    text="&lt;p>© &amp;nbsp; 2000-2017 &lt;b>Toyota Kirloskar Motor.&lt;/b> All Rights Reserved.&lt;/p>&#xa;"
+                    textIsRich="true"/>
+                <socialLinks
+                    jcr:lastModified="{Date}2017-08-14T13:21:23.041+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    altname="Twitter"
+                    altname1="Facebook"
+                    altname2="YouTube"
+                    imgpath="/content/dam/toyota-bharat/social_icon/twitter.png"
+                    imgpath1="/content/dam/toyota-bharat/social_icon/fb.png"
+                    imgpath2="/content/dam/toyota-bharat/social_icon/youtube.png"
+                    socialhref="https://twitter.com/Toyota_India"
+                    socialhref1="https://www.facebook.com/ToyotaIndia"
+                    socialhref2="https://www.youtube.com/user/ToyotainIndia"/>
+                <footOtherLinks
+                    jcr:lastModified="{Date}2017-08-16T10:14:49.456+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    linkname="Contact Us"
+                    linkname1="Announcement"
+                    linkname2="Legal Notice"
+                    linkname3="Help"
+                    linkname4="Site Map"
+                    pagepath="/content/toyota-bharat/en/footer-pages/contact-us"
+                    pagepath1="/content/toyota-bharat/en/footer-pages/announcement"
+                    pagepath2="/content/toyota-bharat/en/footer-pages/legal-notice"
+                    pagepath3="/content/toyota-bharat/en/footer-pages/help"
+                    pagepath4="/content/toyota-bharat/en/footer-pages/site-map"/>
+            </footer>
+        </content>
+    </jcr:content>
+</jcr:root>

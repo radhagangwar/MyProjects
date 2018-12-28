@@ -1,0 +1,64 @@
+    <div id="main_visual" style="margin-bottom: 70px;">
+        <div class="core cf"></div>
+			<div class="main_visual">
+            <p>
+                <sly data-sly-resource="${'heroimage' @ resourceType='/apps/toyota-bharat/components/content/image'}"></sly>
+            </p>
+            <p class="main_visual_title top-left line-three"></p>
+         </div>
+
+		<div class="inner_bxbox" id="main_visual" data-sly-use.basicCarDetailsObj="${'com.toyotaBharat.core.wcmimpl.BasicCarDetailsWCM' @ pagePath = currentPage.path}">
+		   <div class="bx-wrapper">
+			  <div class="bx-viewport">
+				 <div data-sly-list.carDetails="${basicCarDetailsObj.basicCarDetails}" class="item-list cf">
+						 <sly data-sly-test="${carDetailsList.odd}">
+					   <div class="quick-spec prices${carDetailsList.count}">
+						  <p class="title"><a href="/content/toyota-bharat/en/fixed-header-pages/quote.html" target="_blank">From INR ${carDetails.price}</a></p>
+						  <div class="carchapter-suttitle">(Ex-Showroom Price - Mumbai)</div>
+						  <div class="cf">
+							 <div class="col-number">
+								<p class="quickspec-label">Engine Type</p>
+								<p class="metric">${carDetails.engineType}</p>
+							 </div>
+							 <div class="col-number">
+								<p class="quickspec-label">Displacement</p>
+								<p class="metric">${carDetails.displacement}</p>
+								<p>cc(cm³)</p>
+							 </div>
+							 <div class="col-number last-child">
+								<p class="quickspec-label">Max. torque</p>
+								<p class="metric">${carDetails.maxtorque}</p>
+								<p>Nm(kg-m)@rpm</p>
+							 </div>
+						  </div>
+					   </div>
+					   </sly>
+					   
+					   <sly data-sly-test="${carDetailsList.even}">
+					   <div class="quick-spec prices${carDetailsList.count}">
+						  <p class="title"><a href="/content/toyota-bharat/en/fixed-header-pages/quote.html" target="_blank" style="color:#F8F7F7;">From INR ${carDetails.price}</a></p>
+						  <div class="carchapter-suttitle">(Ex-Showroom Price - Mumbai)</div>
+						  <div class="cf">
+							 <div class="col-number">
+								<p class="quickspec-label">Engine Type</p>
+								<p class="metric">${carDetails.engineType}</p>
+							 </div>
+							 <div class="col-number">
+								<p class="quickspec-label">Displacement</p>
+								<p class="metric">${carDetails.displacement}</p>
+								<p>cc(cm³)</p>
+							 </div>
+							 <div class="col-number last-child">
+								<p class="quickspec-label">Max. torque</p>
+								<p class="metric">${carDetails.maxtorque}</p>
+								<p>Nm(kg-m)@rpm</p>
+							 </div>
+						  </div>
+					   </div>
+					   </sly>
+				 </div>
+			  </div>
+		   </div>
+		</div>
+        <div class="inner"><h3></h3><p></p></div>
+</div>

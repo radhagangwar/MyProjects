@@ -1,0 +1,43 @@
+<!--/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   ~ Copyright 2016 Adobe Systems Incorporated
+   ~
+   ~ Licensed under the Apache License, Version 2.0 (the "License");
+   ~ you may not use this file except in compliance with the License.
+   ~ You may obtain a copy of the License at
+   ~
+   ~     http://www.apache.org/licenses/LICENSE-2.0
+   ~
+   ~ Unless required by applicable law or agreed to in writing, software
+   ~ distributed under the License is distributed on an "AS IS" BASIS,
+   ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   ~ See the License for the specific language governing permissions and
+   ~ limitations under the License.
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/-->
+<html>
+   <head data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}">
+      <meta data-sly-call="${clientLib.css @ categories='toyota-bharat.site'}" data-sly-unwrap>
+      </meta>
+   </head>
+   <div
+      data-sly-use.listComponent="list.js"
+      data-sly-use.emptyRenderer="emptylist.html"
+      data-sly-use.itemTemplate="listitem.html"
+      data-sly-use.clientLib="${'/libs/granite/sightly/templates/clientlib.html'}"
+      id="${listComponent.listId}">
+     <!-- <sly data-sly-call="${clientLib.all @ categories='wcm.foundation.components.list'}" />-->
+      <sly data-sly-call="${emptyRenderer.emptylisttemplate @ list=listComponent}" />
+      <link data-sly-test="${properties.feedEnabled}" rel="alternate" type="application/atom+xml" title="Atom 1.0 (List)" href="${resource.path}.feed" />
+
+<div id="content">
+<div class="dist_news">
+      <div class="dist_news">
+         <div class="section">
+         <sly data-sly-element="${listComponent.element}" data-sly-list.listItem="${listComponent.list}" >
+            <sly data-sly-call="${itemTemplate[listComponent.type] @ renderItem=listItem}"></sly>
+         </sly>
+      </div>
+   </div>
+
+</div>
+   </div>
+</html>

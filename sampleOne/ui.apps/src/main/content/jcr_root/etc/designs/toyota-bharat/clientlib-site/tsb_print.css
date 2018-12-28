@@ -1,0 +1,184 @@
+/* CSS Document */
+
+body.print_compare_models {
+ height: inherit !important;
+ position: relative;
+}
+
+body.print_compare_models .js-nav-wrapper,
+body.print_compare_models .js-mobile-nav-but,
+body.print_compare_models .footer__primary,
+body.print_compare_models .footer__social,
+body.print_compare_models #recommended,
+body.print_compare_models #migration-sns-area,
+body.print_compare_models #follow_toyota,
+body.print_compare_models .footer__nav,
+body.print_compare_models #more_from_toyota,
+body.print_compare_models #tiles,
+body.print_compare_models .js-search,
+body.print_compare_models .js-carousel,
+body.print_compare_models #testdrive,
+body.print_compare_models #quote,
+body.print_compare_models #bookaservice,
+body.print_compare_models #brochure,
+body.print_compare_models #toyota_models,
+body.print_compare_models #content {
+ display: none;
+}
+
+body.print_compare_models .header {
+ height: 24px !important;
+ margin: 0 0 10px 0;
+ position: relative;
+ background: transparent;
+}
+body.print_compare_models .header .header_box {
+ position: relative;
+ background: transparent;
+}
+
+body.print_compare_models .header .header_box .logo {
+ height: 24px;
+ margin: 0;
+ position: absolute;
+ top: 0;
+ left: 0;
+ border: none;
+ background: none;
+}
+body.print_compare_models .header .header_box .logo .logo__img {
+ display: none;
+}
+body.print_compare_models .header .header_box .logo .splogo__img {
+ width: 144px;
+ height: 24px;
+ margin: 0;
+ display: block;
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+body.print_compare_models .footer__copyright {
+ width: 100%;
+ text-align: center;
+ color: #000;
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ background: none;
+}
+
+body.print_compare_models .wrapper {
+ overflow: inherit;
+ position: relative;
+}
+
+body.print_compare_models .container {
+ height: 100%;
+ margin: 0;
+ position: relative;
+ left: 0;
+}
+body.print_compare_models .container:after {
+ box-shadow: 0 0 0 rgba(255,255,255,0);
+}
+body.print_compare_models .container div {
+}
+
+
+body.print_compare_models #compare_models,
+body.print_compare_models #compare_filtering_models,
+body.print_compare_models #compare_grades {
+ color: #000 !important;
+ margin: 0;
+ padding: 0;
+ position: inherit;
+ top: 0;
+ left: 0;
+ right: inherit;
+ bottom: inherit;
+}
+body.print_compare_models #compare_models p,
+body.print_compare_models #compare_models th,
+body.print_compare_models #compare_models td,
+body.print_compare_models #compare_filtering_models p,
+body.print_compare_models #compare_filtering_models th,
+body.print_compare_models #compare_filtering_models td,
+body.print_compare_models #compare_grades p,
+body.print_compare_models #compare_grades th,
+body.print_compare_models #compare_grades td {
+ color: #000 !important;
+}
+body.print_compare_models #compare_models form,
+body.print_compare_models #compare_filtering_models form,
+body.print_compare_models #compare_grades form {
+ position: inherit;
+ top: 0 !important;
+}
+body.print_compare_models #compare_models .overlay,
+body.print_compare_models #compare_models .close,
+body.print_compare_models #compare_filtering_models .overlay,
+body.print_compare_models #compare_filtering_models .close,
+body.print_compare_models #compare_grades .overlay,
+body.print_compare_models #compare_grades .close {
+ display: none;
+}
+body.print_compare_models #compare_models .inner,
+body.print_compare_models #compare_filtering_models .inner,
+body.print_compare_models #compare_grades .inner {
+ margin: 0;
+ padding: 0;
+ color: #000;
+ overflow: hidden;
+}
+body.print_compare_models #compare_models .inner h2,
+body.print_compare_models #compare_filtering_models .inner h2,
+body.print_compare_models #compare_grades .inner h2 {
+ text-align: left;
+}
+body.print_compare_models #compare_models .inner p.note,
+body.print_compare_models #compare_filtering_models .inner p.note,
+body.print_compare_models #compare_grades .inner p.note {
+ text-align: left;
+}
+body.print_compare_models #compare_models .inner p.btn_print,
+body.print_compare_models #compare_models .inner p.btn_allreset.for_sp,
+body.print_compare_models #compare_filtering_models .inner p.btn_print,
+body.print_compare_models #compare_grades .inner p.btn_print,
+body.print_compare_models #compare_grades .inner p.btn_allreset.for_sp {
+ display: none !important;
+}
+body.print_compare_models #compare_models .inner .view,
+body.print_compare_models #compare_filtering_models .inner .view,
+body.print_compare_models #compare_grades .inner .view {
+ overflow: hidden;
+}
+body.print_compare_models #compare_models .inner table,
+body.print_compare_models #compare_filtering_models .inner table,
+body.print_compare_models #compare_grades .inner table {
+ width: 100%;
+ font-size: 8pt;
+}
+body.print_compare_models #compare_models .inner table th,
+body.print_compare_models #compare_filtering_models .inner table th,
+body.print_compare_models #compare_grades .inner table th {
+ border-bottom: 1px solid #ccc;
+ padding: .7em 0;
+}
+body.print_compare_models #compare_models .inner table td,
+body.print_compare_models #compare_filtering_models .inner table td,
+body.print_compare_models #compare_grades .inner table td {
+ border-bottom: 1px solid #ccc;
+ padding: .5em 0;
+}
+body.print_compare_models #compare_models .inner table td p.change_grade,
+body.print_compare_models #compare_filtering_models .inner table td p.change_grade,
+body.print_compare_models #compare_grades .inner table td p.change_grade {
+ display: none;
+}
+
+body.print_compare_models #compare_models .inner .view p.image img,
+body.print_compare_models #compare_filtering_models .inner .view p.image img,
+body.print_compare_models #compare_grades .inner .view p.image img {
+ width: 100%;
+}

@@ -1,0 +1,17 @@
+<div id="top-features" class="sections no_parx" data-sly-use.topfeatureclass="${'com.toyotaBharat.core.wcmimpl.TopFeaturesWCM' @ pagePath = currentPage.path}">
+	<h2>Top Features</h2>
+	<div class="core cf" data-sly-list.topFeatures="${topfeatureclass.imageUrlDescription}">
+		<p class="tf1"
+			style="background-image: url(${topFeatures.imagePath});
+			background-size: 100%; position: relative; background-position: 50% 0px;"
+			data-top-bottom="background-position:center 300px"
+			data-bottom-top="background-position:center -400px">
+			<img src="/tsb_images/spacer160x67.gif" alt="" class="spacer">
+			<img src="${topFeatures.imagePath}" alt="" class="alternate">
+		</p>
+		<div class="inner">
+			<h3>${topFeatures.imageDescription}</h3>
+			<p></p>
+		</div>
+	</div>
+</div>

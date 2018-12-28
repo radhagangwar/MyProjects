@@ -1,0 +1,115 @@
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" data-sly-call="${clientlib.all @ categories='toyota-bharat.slingservlet'}" />
+
+<div id="dealerinfo">
+    <form method="#">
+        <table border="1">
+            <tr>
+                <td>
+                    <label for="state" id="labelSate">State</label>
+                </td>
+                <td>
+                    <select id="state" class="required">
+                        <option value="">Select State</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city" id="labelCity">City</label>
+                </td>
+                <td>
+                    <select id="city" class="required">
+                        <option value="">Select City</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="facility" id="labelFaclity">Faclility</label>
+                </td>
+                <td>
+                    <select id="facility" class="required">
+                        <option value="">Select Faclility</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dealerName" id="labelDealer">Name of Dealer</label>
+                </td>
+                <td>
+                    <input id="dealerName" name="Name of Dealer" type="text" class="required" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="street" id="labelAdd">Street</label>
+                </td>
+                <td>
+                    <input id="street" name="Street" type="text" value="" class="required" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="area" id="labelAdd">Area</label>
+                </td>
+                <td>
+                    <input id="area" name="Area" type="text" value="" class="required" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pincode" id="labelpin">Pin Code</label>
+                </td>
+                <td>
+                    <input id="pincode" name="Pin Code" type="text" value="" class="required" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="website" id="labelWebsite">Website</label>
+                </td>
+                <td>
+                    <input id="website" name="Website" type="url" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone" id="labelPhone">Phone</label>
+                </td>
+                <td>
+                    <input id="phone" name="Phone" type="tel" value="" class="required" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="fax" id="labelFax">Fax</label>
+                </td>
+                <td>
+                    <input id="fax" name="Fax" type="tel" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="service" id="labelService">Service</label>
+                </td>
+                <td>
+                    <input id="service" name="Service" type="tel" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="helpline" id="labelHelpline">Helpline</label>
+                </td>
+                <td>
+                    <input id="helpline" name="Helpline" type="tel" value="" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="button" name="submit" id="submit" value="Submit" style="margin-left: 50%" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
